@@ -16,6 +16,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
+import { isLive } from "@/lib/config/dataSource";
 
 const schema = z.object({
   symbol: z.string().min(1, "Symbol is required"),
@@ -58,7 +59,8 @@ export function AddPositionDrawer({ open, onOpenChange }: AddPositionDrawerProps
         <DrawerHeader>
           <DrawerTitle>Add position</DrawerTitle>
           <DrawerDescription>
-            Manual entry — P/L is computed against live (mock) quotes.
+            Manual entry — P/L is computed against{" "}
+            {isLive() ? "live" : "mock"} quotes.
           </DrawerDescription>
         </DrawerHeader>
         <form onSubmit={onSubmit} className="flex flex-1 flex-col gap-3 overflow-auto p-4">

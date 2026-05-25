@@ -10,6 +10,7 @@ import { toast } from "sonner";
 import { useLayoutStore } from "@/lib/stores/layoutStore";
 import { clearAll, SCHEMA_VERSION } from "@/lib/persistence/idb";
 import { Download, Upload, RefreshCw, Trash2 } from "lucide-react";
+import { isLive } from "@/lib/config/dataSource";
 
 export function SettingsView() {
   const savedLayouts = useLayoutStore((s) => s.savedLayouts);
@@ -29,8 +30,17 @@ export function SettingsView() {
           <SettingRow label="Theme" hint="Dark-first design; light mode is minimal & opt-in via CSS class.">
             <Badge variant="muted">Dark</Badge>
           </SettingRow>
-          <SettingRow label="Data source" hint="Swap-in adapter target. Set NEXT_PUBLIC_DATA_SOURCE.">
-            <Badge variant="accent">{process.env.NEXT_PUBLIC_DATA_SOURCE ?? "mock"}</Badge>
+          <SettingRow
+            label="Data source"
+            hint={
+              isLive()
+                ? "Live: Polygon (quotes/candles) + SEC Form 4 (insiders). News remains mock."
+                : "Swap-in adapter target. Set NEXT_PUBLIC_DATA_SOURCE=live in .env."
+            }
+          >
+            <Badge variant={isLive() ? "gain" : "accent"}>
+              {process.env.NEXT_PUBLIC_DATA_SOURCE ?? "mock"}
+            </Badge>
           </SettingRow>
           <SettingRow label="Reduced motion" hint="Honors OS-level prefers-reduced-motion automatically.">
             <Switch defaultChecked disabled />

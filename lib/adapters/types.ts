@@ -25,12 +25,18 @@ export interface QuotesAdapter {
   stream?(symbol: string): AsyncIterable<Quote>; // optional V2
 }
 
+export interface CandlesGetResult {
+  candles: Candle[];
+  proxySymbol?: string;
+  degraded?: boolean;
+}
+
 export interface CandlesAdapter {
   get(
     symbol: string,
     interval: CandleInterval,
     opts?: { from?: number; to?: number; limit?: number },
-  ): Promise<Candle[]>;
+  ): Promise<CandlesGetResult>;
 }
 
 export interface NewsFilter {
@@ -54,6 +60,8 @@ export interface PoliticianTradeFilter {
   parties?: Array<"D" | "R" | "I">;
   states?: string[];
   owners?: Array<"self" | "spouse" | "child" | "joint" | "dependent">;
+  /** Live mode: filter by SEC relationship labels in committees (Director, Officer, 10% Owner). */
+  roles?: string[];
   minAmount?: import("@/lib/types").AmountBucket;
   sides?: Array<"buy" | "sell" | "exchange" | "receive">;
   since?: number;

@@ -1,14 +1,14 @@
 import type { DataAdapter } from "./types";
 import { mockAdapter } from "./mock";
-
-const SOURCE = process.env.NEXT_PUBLIC_DATA_SOURCE ?? "mock";
+import { liveAdapter } from "./live";
+import { getDataSource } from "@/lib/config/dataSource";
 
 export const dataAdapter: DataAdapter = (() => {
-  switch (SOURCE) {
+  switch (getDataSource()) {
+    case "live":
+      return liveAdapter;
     case "mock":
-      return mockAdapter;
     default:
-      // Future: case "polygon": return polygonAdapter; etc.
       return mockAdapter;
   }
 })();

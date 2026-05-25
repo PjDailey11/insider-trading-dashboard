@@ -4,55 +4,55 @@
     "symbol": "AAPL",
     "quantity": 50,
     "avgCost": 168.42,
-    "openedAt": 1742587200000
+    "openedAt": 1732219200000
   },
   {
     "id": "pos_2",
     "symbol": "NVDA",
     "quantity": 80,
     "avgCost": 108.15,
-    "openedAt": 1760644800000
+    "openedAt": 1764792000000
   },
   {
     "id": "pos_3",
     "symbol": "MSFT",
     "quantity": 25,
     "avgCost": 388.1,
-    "openedAt": 1751054400000
+    "openedAt": 1762632000000
   },
   {
     "id": "pos_4",
     "symbol": "GOOGL",
     "quantity": 60,
     "avgCost": 142.55,
-    "openedAt": 1749672000000
+    "openedAt": 1739304000000
   },
   {
     "id": "pos_5",
     "symbol": "TSLA",
     "quantity": 30,
     "avgCost": 215.8,
-    "openedAt": 1736798400000
+    "openedAt": 1748980800000
   },
   {
     "id": "pos_6",
     "symbol": "AMD",
     "quantity": 100,
     "avgCost": 124.3,
-    "openedAt": 1739908800000
+    "openedAt": 1733169600000
   },
   {
     "id": "pos_7",
     "symbol": "JPM",
     "quantity": 35,
     "avgCost": 198.4,
-    "openedAt": 1733256000000
+    "openedAt": 1759176000000
   },
   {
     "id": "pos_8",
     "symbol": "XOM",
     "quantity": 70,
     "avgCost": 102.1,
-    "openedAt": 1758571200000
+    "openedAt": 1733688000000
   }
 ]

@@ -16,6 +16,7 @@ import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
 import { ArrowRight, Bell, BellOff, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { isLive } from "@/lib/config/dataSource";
 
 export function DashboardHome() {
   return (
@@ -170,6 +171,7 @@ function NewsList() {
 }
 
 function PoliticianFeedTeaser() {
+  const live = isLive();
   const { data, isLoading } = usePoliticianTrades({ limit: 4 });
   const { data: politicians } = usePoliticians();
   const polById = new Map((politicians ?? []).map((p) => [p.id, p]));
@@ -180,8 +182,10 @@ function PoliticianFeedTeaser() {
       title={
         <span className="flex items-center gap-1.5 font-medium text-text">
           <Users className="h-3.5 w-3.5 text-text-subtle" />
-          Politician feed
-          <Badge variant="info" className="ml-1">ambient</Badge>
+          {live ? "SEC Form 4 feed" : "Politician feed"}
+          <Badge variant="info" className="ml-1">
+            {live ? "live" : "ambient"}
+          </Badge>
         </span>
       }
       actions={

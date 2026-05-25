@@ -20,6 +20,7 @@ import { Button } from "@/components/ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { useLayoutStore } from "@/lib/stores/layoutStore";
 import { useCommandPalette } from "@/lib/hooks/useCommandPalette";
+import { isLive } from "@/lib/config/dataSource";
 
 interface NavItem {
   href: string;
@@ -41,6 +42,12 @@ export function Header() {
   const toggleLeft = useLayoutStore((s) => s.toggleLeftRail);
   const toggleRight = useLayoutStore((s) => s.toggleRightRail);
   const open = useCommandPalette((s) => s.open);
+  const live = isLive();
+  const nav = NAV.map((item) =>
+    item.href === "/politicians" && live
+      ? { ...item, label: "Insiders" }
+      : item,
+  );
 
   return (
     <header className="flex h-header shrink-0 items-center gap-3 border-b border-border bg-bg px-3">
@@ -57,7 +64,7 @@ export function Header() {
       </Link>
 
       <nav className="ml-2 flex items-center gap-0.5">
-        {NAV.map((item) => {
+        {nav.map((item) => {
           const Icon = item.icon;
           const active =
             item.href === "/"

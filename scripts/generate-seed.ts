@@ -317,6 +317,8 @@ function generateIntradayCandles(spec: TickerSpec, sessions: number): Candle[] {
   return out;
 }
 
+const MACRO_CANDLE_SYMBOLS = ["US10Y", "US02Y", "DXY"] as const;
+
 const dailyCandles: Record<string, Candle[]> = {};
 const intradayCandles: Record<string, Candle[]> = {};
 for (const spec of TICKER_SPECS) {
@@ -326,6 +328,10 @@ for (const spec of TICKER_SPECS) {
   if (TOP_10_SYMBOLS.includes(spec.symbol)) {
     intradayCandles[spec.symbol] = generateIntradayCandles(spec, 5);
   }
+}
+for (const macroSymbol of MACRO_CANDLE_SYMBOLS) {
+  const spec = TICKER_SPECS.find((t) => t.symbol === macroSymbol);
+  if (spec) dailyCandles[macroSymbol] = generateDailyCandles(spec, 730);
 }
 
 // ────────────────────────────────────────────────────────────────────────────

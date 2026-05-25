@@ -144,7 +144,7 @@ export const mockAdapter: DataAdapter = {
       if (opts.from) filtered = filtered.filter((c) => c.t >= opts.from!);
       if (opts.to) filtered = filtered.filter((c) => c.t <= opts.to!);
       if (opts.limit) filtered = filtered.slice(-opts.limit);
-      return filtered;
+      return { candles: filtered };
     },
   },
   news: {

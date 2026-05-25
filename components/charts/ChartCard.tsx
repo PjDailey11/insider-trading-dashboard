@@ -20,9 +20,16 @@ import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
 import { Skeleton } from "@/components/ui/skeleton";
+import { EmptyState } from "@/components/EmptyState";
 import { cn } from "@/lib/utils";
 import type { Candle, CandleInterval, PoliticianTrade, Politician } from "@/lib/types";
 import { bucketImportance, bucketLabel } from "@/lib/utils/politician";
+import {
+  isMacroProxySymbol,
+  macroPolygonProxy,
+  macroProxyLabel,
+} from "@/lib/config/macroSymbols";
+import Link from "next/link";
 
 const INTERVALS: Array<{ id: CandleInterval; label: string }> = [
   { id: "5m", label: "5m" },
@@ -56,7 +63,14 @@ export function ChartCard({ symbol, height = 460 }: ChartCardProps) {
   });
   const [showPolitician, setShowPolitician] = useState(true);
 
-  const { data: candles, isLoading } = useCandles(symbol, interval);
+  const { data, isLoading, isError, error, refetch } = useCandles(symbol, interval);
+  const candles = data?.candles;
+  const proxySymbol = data?.proxySymbol;
+  const degraded = data?.degraded;
+  const chartProxy =
+    proxySymbol && proxySymbol !== symbol ? proxySymbol : macroPolygonProxy(symbol);
+  const showProxyCaption =
+    Boolean(chartProxy) && chartProxy !== symbol && (candles?.length ?? 0) > 0;
   const { data: trades } = usePoliticianTradesForSymbol(symbol, { limit: 80 });
   const { data: politicians } = usePoliticians();
 
@@ -69,7 +83,7 @@ export function ChartCard({ symbol, height = 460 }: ChartCardProps) {
   useEffect(() => {
     if (!containerRef.current) return;
     const chart = createChart(containerRef.current, {
-      autoSize: true,
+      autoSize: false,
       layout: {
         background: { type: ColorType.Solid, color: "rgba(0,0,0,0)" },
         textColor: "#9aa1ab",
@@ -118,6 +132,27 @@ export function ChartCard({ symbol, height = 460 }: ChartCardProps) {
       overlayRefs.current = {};
     };
   }, [interval]);
+
+  useEffect(() => {
+    const el = containerRef.current;
+    const chart = chartRef.current;
+    if (!el || !chart) return;
+
+    const resize = () => {
+      const { width, height: h } = el.getBoundingClientRect();
+      if (width > 0 && h > 0) {
+        chart.resize(width, h);
+        if (candles && candles.length > 0) {
+          chart.timeScale().fitContent();
+        }
+      }
+    };
+
+    resize();
+    const ro = new ResizeObserver(() => resize());
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [candles]);
 
   useEffect(() => {
     if (!candleSeriesRef.current || !volumeSeriesRef.current || !candles) return;
@@ -204,10 +239,74 @@ export function ChartCard({ symbol, height = 460 }: ChartCardProps) {
         {isLoading ? (
           <Skeleton style={{ height }} className="m-3 w-[calc(100%-24px)]" />
         ) : null}
-        <div ref={containerRef} className="h-full w-full" style={{ minHeight: height }} />
+        {!isLoading && isError ? (
+          <div className="absolute inset-0 z-10 flex items-center justify-center bg-bg/90">
+            <EmptyState
+              title="Could not load candles"
+              description={
+                error instanceof Error ? error.message : "Market data provider error"
+              }
+              action={
+                <Button variant="outline" size="sm" onClick={() => void refetch()}>
+                  Retry
+                </Button>
+              }
+            />
+          </div>
+        ) : null}
+        {!isLoading && !isError && (candles?.length ?? 0) === 0 ? (
+          <div className="absolute inset-0 z-10 flex items-center justify-center bg-bg/90">
+            <EmptyState
+              title="No bars for this symbol"
+              description={chartEmptyDescription(symbol, degraded)}
+              action={
+                <div className="flex flex-wrap items-center justify-center gap-2">
+                  {chartProxy && chartProxy !== symbol ? (
+                    <Button variant="outline" size="sm" asChild>
+                      <Link href={`/s/${chartProxy}`}>Open {chartProxy} chart</Link>
+                    </Button>
+                  ) : null}
+                  {!degraded ? (
+                    <Button variant="outline" size="sm" onClick={() => void refetch()}>
+                      Retry
+                    </Button>
+                  ) : null}
+                </div>
+              }
+            />
+          </div>
+        ) : null}
+        <div
+          ref={containerRef}
+          className={cn(
+            "h-full w-full",
+            (!candles?.length && !isLoading) || isError ? "invisible" : "",
+          )}
+          style={{ minHeight: height }}
+        />
+        {showProxyCaption ? (
+          <p className="pointer-events-none absolute bottom-2 left-3 z-10 font-mono text-2xs text-text-subtle">
+            Chart: {chartProxy} proxy for {symbol}
+          </p>
+        ) : null}
       </div>
     </div>
   );
+}
+
+function chartEmptyDescription(symbol: string, degraded?: boolean): string {
+  const macroHint = macroProxyLabel(symbol);
+  if (degraded) {
+    return macroHint
+      ? `Using cached seed data (${macroHint}). The market API returned no bars — try 5m or 1D, or open the ETF proxy chart.`
+      : "Using cached seed data. The market API returned no bars — try another interval or retry later.";
+  }
+  if (isMacroProxySymbol(symbol) || macroHint) {
+    return macroHint
+      ? `Yield and index symbols chart via ETF proxies (${macroHint}). No bars returned from the market API — try 5m or 1D.`
+      : "No bars returned from the market API. Try another interval or retry.";
+  }
+  return "No bars returned from the market API. Try another interval or retry.";
 }
 
 // ────────────────────────────────────────────────────────────────────────────

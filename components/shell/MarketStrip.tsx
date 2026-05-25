@@ -5,6 +5,7 @@ import { MarketStatPill } from "@/components/market/MarketStatPill";
 import { useQuotes } from "@/lib/hooks/useQuotes";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Circle } from "lucide-react";
+import { isLive } from "@/lib/config/dataSource";
 
 const STRIP_SYMBOLS = [
   "SPX",
@@ -79,7 +80,7 @@ export function MarketStrip() {
       )}
 
       <div className="ml-auto flex h-full shrink-0 items-center gap-2 border-l border-border px-3 text-2xs uppercase tracking-wider text-text-subtle">
-        <span>Data: Mock</span>
+        <span>Data: {isLive() ? "Live" : "Mock"}</span>
       </div>
     </div>
   );

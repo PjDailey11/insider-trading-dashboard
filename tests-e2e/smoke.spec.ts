@@ -45,7 +45,7 @@ test("politician profile route mounts (deep link via id)", async ({ page }) => {
   const firstLink = page.locator('a[href^="/politicians/"]').first();
   await firstLink.waitFor({ state: "visible", timeout: 10_000 });
   const href = await firstLink.getAttribute("href");
-  expect(href).toMatch(/^\/politicians\/pol_/);
+  expect(href).toMatch(/^\/politicians\/(pol_|ins_)/);
   const response = await page.goto(href!);
   expect(response!.status()).toBeLessThan(400);
   await expect(page.locator("main").first()).toBeVisible();

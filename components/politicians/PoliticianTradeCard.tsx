@@ -7,6 +7,7 @@ import { TickerBadge } from "@/components/market/TickerBadge";
 import { Badge } from "@/components/ui/badge";
 import { bucketLabel, partyVariant } from "@/lib/utils/politician";
 import { cn } from "@/lib/utils";
+import { isLive } from "@/lib/config/dataSource";
 
 export type PoliticianTradeCardVariant = "row" | "card";
 
@@ -23,6 +24,8 @@ export function PoliticianTradeCard({
   variant = "card",
   className,
 }: PoliticianTradeCardProps) {
+  const live = isLive();
+
   if (variant === "row") {
     return (
       <div
@@ -43,12 +46,20 @@ export function PoliticianTradeCard({
         ) : (
           <span className="text-text-muted">Unknown</span>
         )}
-        {politician ? (
+        {politician && live ? (
+          politician.committees.slice(0, 2).map((c) => (
+            <Badge key={c} variant="muted" className="px-1 py-0">
+              {c}
+            </Badge>
+          ))
+        ) : politician ? (
           <Badge variant={partyVariant(politician.party)} className="px-1 py-0">
             {politician.party}
           </Badge>
         ) : null}
-        <span className="text-text-muted">{politician?.chamber ?? "—"}</span>
+        {!live ? (
+          <span className="text-text-muted">{politician?.chamber ?? "—"}</span>
+        ) : null}
         <span className="font-mono text-text-muted">{bucketLabel(trade.amountBucket)}</span>
         <span className="text-text-muted">owner: {trade.owner}</span>
         <span className="ml-auto font-mono text-2xs text-text-subtle">
@@ -89,13 +100,23 @@ export function PoliticianTradeCard({
                 >
                   {politician.name}
                 </Link>
-                <Badge variant={partyVariant(politician.party)} className="px-1 py-0">
-                  {politician.party}
-                </Badge>
-                <span className="text-2xs text-text-subtle">
-                  · {politician.chamber} · {politician.state}
-                  {politician.district ? `-${politician.district}` : ""}
-                </span>
+                {live ? (
+                  politician.committees.slice(0, 3).map((c) => (
+                    <Badge key={c} variant="muted" className="px-1 py-0">
+                      {c}
+                    </Badge>
+                  ))
+                ) : (
+                  <>
+                    <Badge variant={partyVariant(politician.party)} className="px-1 py-0">
+                      {politician.party}
+                    </Badge>
+                    <span className="text-2xs text-text-subtle">
+                      · {politician.chamber} · {politician.state}
+                      {politician.district ? `-${politician.district}` : ""}
+                    </span>
+                  </>
+                )}
               </>
             ) : (
               <span className="text-sm text-text-muted">Unknown politician</span>

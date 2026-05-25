@@ -38,6 +38,34 @@ export function bucketImportance(b: AmountBucket): 1 | 2 | 3 | 4 | 5 {
   return 1;
 }
 
+const BUCKET_ORDER: AmountBucket[] = [
+  "1k-15k",
+  "15k-50k",
+  "50k-100k",
+  "100k-250k",
+  "250k-500k",
+  "500k-1m",
+  "1m-5m",
+  "5m-25m",
+  "25m-50m",
+  "50m+",
+];
+
+/** Map a dollar value to the nearest official PTR amount bucket. */
+export function valueToAmountBucket(valueUsd: number): AmountBucket {
+  if (!Number.isFinite(valueUsd) || valueUsd <= 0) return "1k-15k";
+  let best: AmountBucket = "1k-15k";
+  let bestDist = Infinity;
+  for (const b of BUCKET_ORDER) {
+    const dist = Math.abs(BUCKET_MIDPOINT[b] - valueUsd);
+    if (dist < bestDist) {
+      bestDist = dist;
+      best = b;
+    }
+  }
+  return best;
+}
+
 export function bucketLabel(b: AmountBucket): string {
   const map: Record<AmountBucket, string> = {
     "1k-15k": "$1k–15k",

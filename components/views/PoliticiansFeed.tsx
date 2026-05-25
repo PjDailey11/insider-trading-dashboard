@@ -21,11 +21,14 @@ import type { PoliticianTradeFilter } from "@/lib/adapters";
 import { Users } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { bucketLabel } from "@/lib/utils/politician";
+import { isLive } from "@/lib/config/dataSource";
 
 const PARTY_OPTIONS: Party[] = ["D", "R", "I"];
 const CHAMBER_OPTIONS: Chamber[] = ["House", "Senate"];
 const OWNER_OPTIONS: TradeOwner[] = ["self", "spouse", "joint", "child", "dependent"];
 const SIDE_OPTIONS: TradeSide[] = ["buy", "sell"];
+const ROLE_OPTIONS = ["Director", "Officer", "10% Owner"] as const;
+
 const AMOUNT_OPTIONS: AmountBucket[] = [
   "1k-15k",
   "15k-50k",
@@ -43,25 +46,29 @@ export function PoliticiansFeed() {
   const router = useRouter();
   const params = useSearchParams();
 
+  const live = isLive();
+
   const filter = useMemo<PoliticianTradeFilter>(() => {
     const parties = params.getAll("party") as Party[];
     const chambers = params.getAll("chamber") as Chamber[];
     const owners = params.getAll("owner") as TradeOwner[];
     const sides = params.getAll("side") as TradeSide[];
+    const roles = params.getAll("role");
     const symbol = params.get("symbol") ?? undefined;
     const minAmount = (params.get("minAmount") ?? undefined) as
       | AmountBucket
       | undefined;
     return {
-      parties: parties.length ? parties : undefined,
-      chambers: chambers.length ? chambers : undefined,
-      owners: owners.length ? owners : undefined,
+      parties: live || parties.length === 0 ? undefined : parties,
+      chambers: live || chambers.length === 0 ? undefined : chambers,
+      owners: live || owners.length === 0 ? undefined : owners,
+      roles: live && roles.length ? roles : undefined,
       sides: sides.length ? sides : undefined,
       symbol,
       minAmount,
       limit: 24,
     };
-  }, [params]);
+  }, [params, live]);
 
   const setParam = (
     key: string,
@@ -104,42 +111,57 @@ export function PoliticiansFeed() {
           title={
             <span className="flex items-center gap-1.5 font-medium text-text">
               <Users className="h-3.5 w-3.5 text-text-subtle" />
-              Politician trades
+              {live ? "Insider trades" : "Politician trades"}
               <Badge variant="info" className="ml-1">{items.length}</Badge>
             </span>
           }
           actions={
             <span className="text-2xs text-text-subtle">
-              anchored to trade date · lag chip = disclosure delay
+              {live
+                ? "SEC Form 4 · trade date anchor · lag = filing delay"
+                : "anchored to trade date · lag chip = disclosure delay"}
             </span>
           }
           density="compact"
           bodyClassName="p-0"
         >
-          <FilterBar
-            label="Party"
-            values={PARTY_OPTIONS}
-            selected={filter.parties ?? []}
-            onToggle={(v) => setParam("party", v as string, true)}
-          />
-          <FilterBar
-            label="Chamber"
-            values={CHAMBER_OPTIONS}
-            selected={filter.chambers ?? []}
-            onToggle={(v) => setParam("chamber", v as string, true)}
-          />
+          {!live ? (
+            <>
+              <FilterBar
+                label="Party"
+                values={PARTY_OPTIONS}
+                selected={filter.parties ?? []}
+                onToggle={(v) => setParam("party", v as string, true)}
+              />
+              <FilterBar
+                label="Chamber"
+                values={CHAMBER_OPTIONS}
+                selected={filter.chambers ?? []}
+                onToggle={(v) => setParam("chamber", v as string, true)}
+              />
+            </>
+          ) : (
+            <FilterBar
+              label="Role"
+              values={[...ROLE_OPTIONS]}
+              selected={filter.roles ?? []}
+              onToggle={(v) => setParam("role", v as string, true)}
+            />
+          )}
           <FilterBar
             label="Side"
             values={SIDE_OPTIONS}
             selected={filter.sides ?? []}
             onToggle={(v) => setParam("side", v as string, true)}
           />
-          <FilterBar
-            label="Owner"
-            values={OWNER_OPTIONS}
-            selected={filter.owners ?? []}
-            onToggle={(v) => setParam("owner", v as string, true)}
-          />
+          {!live ? (
+            <FilterBar
+              label="Owner"
+              values={OWNER_OPTIONS}
+              selected={filter.owners ?? []}
+              onToggle={(v) => setParam("owner", v as string, true)}
+            />
+          ) : null}
           <FilterBar
             label="Min amount"
             values={AMOUNT_OPTIONS}
@@ -238,7 +260,11 @@ function PoliticiansShortlist() {
   const router = useRouter();
   return (
     <Panel
-      title={<span className="font-medium text-text">Politicians</span>}
+      title={
+        <span className="font-medium text-text">
+          {isLive() ? "Insiders" : "Politicians"}
+        </span>
+      }
       density="compact"
       bodyClassName="p-0 max-h-[600px] overflow-auto"
     >
@@ -249,19 +275,25 @@ function PoliticiansShortlist() {
             className="flex items-center gap-2 border-b border-border-muted px-3 py-2 text-xs row-hover cursor-pointer"
             onClick={() => router.push(`/politicians/${p.id}`)}
           >
-            <span
-              className={cn(
-                "h-5 w-5 shrink-0 rounded-sm font-mono text-2xs flex items-center justify-center font-semibold",
-                p.party === "D" && "bg-[hsl(var(--dem)/0.15)] text-[hsl(var(--dem))]",
-                p.party === "R" && "bg-[hsl(var(--rep)/0.15)] text-[hsl(var(--rep))]",
-                p.party === "I" && "bg-[hsl(var(--ind)/0.15)] text-[hsl(var(--ind))]",
-              )}
-            >
-              {p.party}
-            </span>
+            {isLive() ? (
+              <span className="max-w-[72px] truncate text-2xs text-text-subtle">
+                {p.committees[0] ?? "Insider"}
+              </span>
+            ) : (
+              <span
+                className={cn(
+                  "h-5 w-5 shrink-0 rounded-sm font-mono text-2xs flex items-center justify-center font-semibold",
+                  p.party === "D" && "bg-[hsl(var(--dem)/0.15)] text-[hsl(var(--dem))]",
+                  p.party === "R" && "bg-[hsl(var(--rep)/0.15)] text-[hsl(var(--rep))]",
+                  p.party === "I" && "bg-[hsl(var(--ind)/0.15)] text-[hsl(var(--ind))]",
+                )}
+              >
+                {p.party}
+              </span>
+            )}
             <span className="flex-1 truncate text-text">{p.name}</span>
             <span className="text-2xs text-text-subtle">
-              {p.chamber} · {p.state}
+              {isLive() ? p.state : `${p.chamber} · ${p.state}`}
             </span>
           </li>
         ))}

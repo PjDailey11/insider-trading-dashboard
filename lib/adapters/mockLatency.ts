@@ -1,7 +1,10 @@
 // Simulated network latency: P50 ≈ 80ms, P95 ≈ 400ms, occasional failure switch.
 // Used by mockAdapter so the UI exercises real loading/error states.
 
-const ENABLED = process.env.NEXT_PUBLIC_DATA_SOURCE === "mock" || !process.env.NEXT_PUBLIC_DATA_SOURCE;
+const ENABLED =
+  process.env.NEXT_PUBLIC_DATA_SOURCE !== "live" &&
+  (process.env.NEXT_PUBLIC_DATA_SOURCE === "mock" ||
+    !process.env.NEXT_PUBLIC_DATA_SOURCE);
 
 export interface LatencyOptions {
   base?: number;
