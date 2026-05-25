@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { fetchQuotes, ProviderError } from "@/lib/server/polygon";
+import { fetchQuotes, ProviderError } from "@/lib/server/publicMarket";
 import { jsonError, jsonOk } from "@/lib/server/apiResponse";
 import quotesSeed from "@/seed/quotes.json";
 import type { Quote } from "@/lib/types";

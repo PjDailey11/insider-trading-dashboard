@@ -24,30 +24,29 @@ The dev server boots cleanly without seed regeneration too — `seed/*.json` is
 checked in. Regenerate any time and the output is byte-identical thanks to a
 fixed Mulberry32 RNG seed in `scripts/generate-seed.ts`.
 
-## Live data (Polygon + SEC Form 4)
+## Live data (Public.com + SEC Form 4)
 
 Copy `.env.example` to `.env` (or `.env.local`) and set:
 
 ```env
-NEXT_PUBLIC_DATA_SOURCE=live
+PUBLIC_API_KEY=your_public_com_secret
+PUBLIC_ACCOUNT_ID=your_brokerage_account_id
 SEC_API_KEY=your_sec_api_io_key
-POLYGON_API_KEY=your_polygon_key
 ```
 
-`PUBLIC_API_KEY` is still accepted as a legacy alias for Polygon. **Never** prefix
-API secrets with `NEXT_PUBLIC_` — they stay server-side in route handlers under
-`app/api/market/*` and `app/api/insiders/*`. The browser `liveAdapter` only calls
-same-origin `/api/...` routes.
+Live mode is the default. Set `NEXT_PUBLIC_DATA_SOURCE=mock` only to force seed
+data. **Never** prefix API secrets with `NEXT_PUBLIC_` — they stay server-side in
+route handlers under `app/api/market/*` and `app/api/insiders/*`. The browser
+`liveAdapter` only calls same-origin `/api/...` routes.
 
 | Data | Provider | Notes |
 |------|----------|-------|
-| Quotes, candles, ticker search | Polygon | Market strip maps index labels to ETFs (SPY, QQQ, …) |
+| Quotes, candles | Public.com | Index symbols use INDEX type; macro/yield may chart via ETF proxies |
+| Ticker search | Seed | Command palette filters bundled `seed/tickers.json` |
 | Insider trades & profiles | sec-api.io Form 4 | Corporate insiders, not congressional PTR |
 | News | Mock seed | No live news key yet |
 
-With `live`, the UI labels insiders honestly (role filters, “Insider trades”,
-`Data: Live` in the market strip). On provider errors, routes may degrade to
-seed data server-side.
+On provider errors, routes may degrade to seed data server-side.
 
 ## Scripts
 
@@ -80,9 +79,9 @@ seed data server-side.
 ## Architecture decisions
 
 - **Adapters first.** Every data fetch goes through an interface in
-  `lib/adapters/types.ts`. Use `NEXT_PUBLIC_DATA_SOURCE=mock` (default) for
-  `mockAdapter` + simulated latency, or `live` for `liveAdapter` → `/api/*`
-  routes backed by Polygon and SEC Form 4.
+  `lib/adapters/types.ts`. Live is the default (`liveAdapter` → `/api/*`
+  routes backed by Public.com and SEC Form 4). Set
+  `NEXT_PUBLIC_DATA_SOURCE=mock` for `mockAdapter` + simulated latency.
 - **Zustand slices.** One file per concern in `lib/stores/`. Each slice exposes
   a `bootstrap()` action that loads from IndexedDB on app start (called once in
   `lib/persistence/bootstrap.ts`, invoked from `components/Providers.tsx`).
@@ -161,10 +160,10 @@ public/
 2. Switch in `lib/adapters/index.ts`:
 
    ```ts
-   case "polygon": return polygonAdapter;
+   case "live": return liveAdapter;
    ```
 
-3. Set `NEXT_PUBLIC_DATA_SOURCE=polygon` in `.env.local`.
+3. Configure `PUBLIC_API_KEY`, `PUBLIC_ACCOUNT_ID`, and `SEC_API_KEY` in `.env`.
 
 The store/UI layer does not need to change.
 

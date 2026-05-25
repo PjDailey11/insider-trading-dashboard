@@ -26,7 +26,7 @@ import type { Candle, CandleInterval, PoliticianTrade, Politician } from "@/lib/
 import { bucketImportance, bucketLabel } from "@/lib/utils/politician";
 import {
   isMacroProxySymbol,
-  macroPolygonProxy,
+  macroInstrumentProxy,
   macroProxyLabel,
 } from "@/lib/config/macroSymbols";
 import Link from "next/link";
@@ -68,7 +68,7 @@ export function ChartCard({ symbol, height = 460 }: ChartCardProps) {
   const proxySymbol = data?.proxySymbol;
   const degraded = data?.degraded;
   const chartProxy =
-    proxySymbol && proxySymbol !== symbol ? proxySymbol : macroPolygonProxy(symbol);
+    proxySymbol && proxySymbol !== symbol ? proxySymbol : macroInstrumentProxy(symbol);
   const showProxyCaption =
     Boolean(chartProxy) && chartProxy !== symbol && (candles?.length ?? 0) > 0;
   const { data: trades } = usePoliticianTradesForSymbol(symbol, { limit: 80 });

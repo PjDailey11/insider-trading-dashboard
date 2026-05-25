@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { fetchQuote, ProviderError } from "@/lib/server/polygon";
+import { fetchQuote, ProviderError } from "@/lib/server/publicMarket";
 import { jsonError, jsonOk } from "@/lib/server/apiResponse";
 import quotesSeed from "@/seed/quotes.json";
 import type { Quote } from "@/lib/types";
@@ -21,7 +21,6 @@ export async function GET(req: NextRequest) {
     if (err instanceof ProviderError) {
       const fallback = mockQuotes.find((q) => q.symbol === symbol);
       if (fallback) return jsonOk({ quote: fallback, degraded: true });
-      return jsonError(err.message, err.status, err.provider);
     }
     return jsonError("quote fetch failed", 500);
   }

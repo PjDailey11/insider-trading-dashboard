@@ -1,5 +1,5 @@
 import { NextRequest } from "next/server";
-import { searchTickers, ProviderError } from "@/lib/server/polygon";
+import { searchTickers, ProviderError } from "@/lib/server/publicMarket";
 import { jsonError, jsonOk } from "@/lib/server/apiResponse";
 import tickersSeed from "@/seed/tickers.json";
 import type { Ticker } from "@/lib/types";

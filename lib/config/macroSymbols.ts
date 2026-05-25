@@ -1,10 +1,10 @@
-/** Display symbols charted via ETF proxies on Polygon (mirrors STRIP_POLYGON_MAP). */
+/** Display symbols charted via ETF proxies on Public.com (mirrors STRIP_INSTRUMENT_MAP). */
 export const MACRO_PROXY_SYMBOLS = ["US02Y", "US10Y", "DXY", "NDX", "SPX"] as const;
 
 export type MacroProxySymbol = (typeof MACRO_PROXY_SYMBOLS)[number];
 
-/** Polygon / chart proxy ticker for each macro display symbol. */
-export const MACRO_POLYGON_PROXY: Record<MacroProxySymbol, string> = {
+/** Public.com / chart proxy ticker for each macro display symbol. */
+export const MACRO_INSTRUMENT_PROXY: Record<MacroProxySymbol, string> = {
   US02Y: "SHY",
   US10Y: "IEF",
   DXY: "UUP",
@@ -20,10 +20,15 @@ export const MACRO_PROXY_LABELS: Record<MacroProxySymbol, string> = {
   SPX: "S&P 500 → SPY",
 };
 
-export function macroPolygonProxy(symbol: string): string | undefined {
+export function macroInstrumentProxy(symbol: string): string | undefined {
   const upper = symbol.trim().toUpperCase();
   if (!isMacroProxySymbol(upper)) return undefined;
-  return MACRO_POLYGON_PROXY[upper];
+  return MACRO_INSTRUMENT_PROXY[upper];
+}
+
+/** @deprecated Use macroInstrumentProxy */
+export function macroPolygonProxy(symbol: string): string | undefined {
+  return macroInstrumentProxy(symbol);
 }
 
 export function isMacroProxySymbol(symbol: string): symbol is MacroProxySymbol {

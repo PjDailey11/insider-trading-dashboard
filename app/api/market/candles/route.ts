@@ -1,9 +1,6 @@
 import { NextRequest } from "next/server";
-import {
-  fetchCandles,
-  ProviderError,
-  resolvePolygonTicker,
-} from "@/lib/server/polygon";
+import { fetchCandles, ProviderError } from "@/lib/server/publicMarket";
+import { resolveInstrumentSymbol } from "@/lib/server/instrumentMap";
 import { jsonError, jsonOk } from "@/lib/server/apiResponse";
 import type { Candle, CandleInterval } from "@/lib/types";
 import candlesDailySeed from "@/seed/candlesDaily.json";
@@ -43,7 +40,7 @@ export async function GET(req: NextRequest) {
   const to = req.nextUrl.searchParams.get("to");
   if (!symbol) return jsonError("symbol required", 400);
   if (!VALID.includes(interval)) return jsonError("invalid interval", 400);
-  const resolved = resolvePolygonTicker(symbol);
+  const resolved = resolveInstrumentSymbol(symbol);
   const opts = {
     limit: limit ? parseInt(limit, 10) : undefined,
     from: from ? parseInt(from, 10) : undefined,

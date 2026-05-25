@@ -34,12 +34,12 @@ export function SettingsView() {
             label="Data source"
             hint={
               isLive()
-                ? "Live: Polygon (quotes/candles) + SEC Form 4 (insiders). News remains mock."
-                : "Swap-in adapter target. Set NEXT_PUBLIC_DATA_SOURCE=live in .env."
+                ? "Live: Public.com (quotes/candles) + SEC Form 4 (insiders). News remains mock."
+                : "Demo mode. Remove NEXT_PUBLIC_DATA_SOURCE=mock from .env to use live APIs."
             }
           >
             <Badge variant={isLive() ? "gain" : "accent"}>
-              {process.env.NEXT_PUBLIC_DATA_SOURCE ?? "mock"}
+              {isLive() ? "live" : "mock"}
             </Badge>
           </SettingRow>
           <SettingRow label="Reduced motion" hint="Honors OS-level prefers-reduced-motion automatically.">

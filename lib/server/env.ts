@@ -1,5 +1,9 @@
-export function getPolygonApiKey(): string | undefined {
-  return process.env.POLYGON_API_KEY ?? process.env.PUBLIC_API_KEY;
+export function getPublicApiKey(): string | undefined {
+  return process.env.PUBLIC_API_KEY;
+}
+
+export function getPublicAccountId(): string | undefined {
+  return process.env.PUBLIC_ACCOUNT_ID;
 }
 
 export function getSecApiKey(): string | undefined {
