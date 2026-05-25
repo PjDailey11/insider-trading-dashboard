@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Dark-first design tokens. Bloomberg-meets-Linear.
+  - HSL values are stored without hsl() so Tailwind can apply opacity modifiers.
+  - Hairline borders, restrained chroma, hot pixels reserved for gain/loss.
+*/
+
+@layer base {
+  :root,
+  .dark {
+    /* Surfaces */
+    --bg: 220 14% 6%;          /* near-black, very slight cool tint */
+    --bg-raised: 220 12% 9%;
+    --bg-sunken: 220 16% 4%;
+    --bg-overlay: 220 14% 11%;
+
+    /* Borders */
+    --border: 220 10% 16%;
+    --border-strong: 220 8% 24%;
+    --border-muted: 220 12% 12%;
+
+    /* Text */
+    --text: 220 14% 92%;
+    --text-muted: 220 8% 64%;
+    --text-subtle: 220 8% 44%;
+    --text-inverted: 220 14% 6%;
+
+    /* Accent — restrained cyan/teal, not blue/purple */
+    --accent: 188 78% 48%;
+    --accent-subtle: 188 78% 12%;
+    --accent-fg: 220 14% 6%;
+
+    /* Semantic — terminal palette */
+    --gain: 142 70% 45%;
+    --gain-subtle: 142 50% 12%;
+    --gain-fg: 142 70% 90%;
+
+    --loss: 6 78% 56%;
+    --loss-subtle: 6 60% 14%;
+    --loss-fg: 6 78% 92%;
+
+    --warn: 38 92% 55%;
+    --warn-subtle: 38 60% 14%;
+
+    --info: 210 90% 60%;
+    --info-subtle: 210 60% 14%;
+
+    /* Politician parties — desaturated, used as 4px chips */
+    --dem: 214 80% 56%;
+    --rep: 6 78% 56%;
+    --ind: 270 40% 60%;
+
+    --radius: 4px;
+  }
+
+  /* Light mode is intentionally not the default — provide a minimal version so we don't crash if forced */
+  .light {
+    --bg: 0 0% 100%;
+    --bg-raised: 220 14% 98%;
+    --bg-sunken: 220 14% 96%;
+    --bg-overlay: 0 0% 100%;
+    --border: 220 14% 88%;
+    --border-strong: 220 14% 80%;
+    --border-muted: 220 14% 92%;
+    --text: 220 14% 12%;
+    --text-muted: 220 8% 38%;
+    --text-subtle: 220 8% 52%;
+    --text-inverted: 0 0% 100%;
+    --accent: 188 78% 38%;
+    --accent-subtle: 188 60% 92%;
+    --accent-fg: 0 0% 100%;
+    --gain: 142 70% 32%;
+    --gain-subtle: 142 50% 92%;
+    --gain-fg: 142 80% 18%;
+    --loss: 6 78% 48%;
+    --loss-subtle: 6 60% 94%;
+    --loss-fg: 6 70% 25%;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html,
+  body {
+    background-color: hsl(var(--bg));
+    color: hsl(var(--text));
+  }
+
+  body {
+    font-feature-settings: "ss01", "cv11", "cv02";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Tabular numerals on every price, percent, volume cell */
+  .tabular,
+  [data-tabular="true"] {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1;
+  }
+
+  /* Hairline border helper — half-pixel feel via box-shadow when needed */
+  .hairline {
+    box-shadow: inset 0 0 0 1px hsl(var(--border));
+  }
+
+  /* Scrollbars — thin, neutral, present on hover */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--border-strong));
+    border-radius: 999px;
+    border: 2px solid hsl(var(--bg));
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--text-subtle));
+  }
+
+  /* Selection */
+  ::selection {
+    background: hsl(var(--accent) / 0.35);
+    color: hsl(var(--text));
+  }
+
+  /* Focus ring — single, visible, not animated */
+  :focus-visible {
+    outline: 2px solid hsl(var(--accent));
+    outline-offset: 1px;
+  }
+
+  /* Respect prefers-reduced-motion globally */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* Panel — the workhorse surface */
+  .panel {
+    background-color: hsl(var(--bg-raised));
+    border: 1px solid hsl(var(--border));
+    border-radius: 4px;
+  }
+
+  .panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    height: 32px;
+    padding: 0 10px;
+    border-bottom: 1px solid hsl(var(--border));
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(var(--text-muted));
+  }
+
+  /* Number chip — gain/loss/flat */
+  .num-up {
+    color: hsl(var(--gain));
+  }
+  .num-down {
+    color: hsl(var(--loss));
+  }
+  .num-flat {
+    color: hsl(var(--text-muted));
+  }
+
+  /* Subtle row hover used across tables */
+  .row-hover:hover {
+    background-color: hsl(var(--bg-overlay));
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .grid-cols-rail-main-right {
+    grid-template-columns: var(--rail-width, 240px) 1fr var(--right-width, 320px);
+  }
+}

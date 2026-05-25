@@ -1,0 +1,2466 @@
+[
+  {
+    "id": "news_0002j",
+    "headline": "JNJ completes strategic acquisition",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1779476214000,
+    "symbols": [
+      "JNJ"
+    ],
+    "sentiment": "bullish",
+    "summary": "Johnson & Johnson: expands into emerging markets. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00017",
+    "headline": "WFC files 10-Q with SEC",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1779472532000,
+    "symbols": [
+      "WFC"
+    ],
+    "sentiment": "neutral",
+    "summary": "Wells Fargo: completes routine regulatory filing. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00052",
+    "headline": "Oil rallies on OPEC+ output discipline",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1779470391000,
+    "symbols": [
+      "VIX"
+    ],
+    "sentiment": "neutral",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0004v",
+    "headline": "XOM files patent on novel architecture",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1779462060000,
+    "symbols": [
+      "XOM"
+    ],
+    "sentiment": "bullish",
+    "summary": "ExxonMobil Corp.: secures key government contract. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00050",
+    "headline": "MCD announces refinancing of credit facility",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1779454548000,
+    "symbols": [
+      "MCD"
+    ],
+    "sentiment": "neutral",
+    "summary": "McDonald's Corp.: begins beta of new feature set. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001k",
+    "headline": "VIX partners with Big Tech on AI integration",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1779433789000,
+    "symbols": [
+      "VIX"
+    ],
+    "sentiment": "bullish",
+    "summary": "CBOE Volatility Index: expands into emerging markets. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001f",
+    "headline": "MA downgraded by analyst on competition fears",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1779431173000,
+    "symbols": [
+      "MA"
+    ],
+    "sentiment": "bearish",
+    "summary": "Mastercard Inc.: loses key executive amid restructure. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004f",
+    "headline": "WFC comments on industry working group",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1779428615000,
+    "symbols": [
+      "WFC"
+    ],
+    "sentiment": "neutral",
+    "summary": "Wells Fargo: issues dividend record date. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00027",
+    "headline": "PINS partners with Big Tech on AI integration",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1779412694000,
+    "symbols": [
+      "PINS"
+    ],
+    "sentiment": "bullish",
+    "summary": "Pinterest Inc.: reports record quarterly revenue. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000c",
+    "headline": "Senate advances bipartisan tariff bill",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1779405992000,
+    "symbols": [
+      "DJI"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_00059",
+    "headline": "KO issues dividend record date",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1779397094000,
+    "symbols": [
+      "KO"
+    ],
+    "sentiment": "neutral",
+    "summary": "Coca-Cola Co.: appoints new chief financial officer. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003e",
+    "headline": "Crypto extends rally; BTC above $97K",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1779393997000,
+    "symbols": [
+      "US10Y",
+      "NDX",
+      "DXY"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0000l",
+    "headline": "DE announces $20B share buyback",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1779392766000,
+    "symbols": [
+      "DE"
+    ],
+    "sentiment": "bullish",
+    "summary": "Deere & Co.: announces $20B share buyback. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00026",
+    "headline": "MRK cuts workforce by 8%",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1779389620000,
+    "symbols": [
+      "MRK"
+    ],
+    "sentiment": "bearish",
+    "summary": "Merck & Co.: issues profit warning ahead of guidance. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00002",
+    "headline": "BTC files patent on novel architecture",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1779385020000,
+    "symbols": [
+      "BTC"
+    ],
+    "sentiment": "bullish",
+    "summary": "Bitcoin: delivers strong forward guidance. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003h",
+    "headline": "PANW completes strategic acquisition",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1779381798000,
+    "symbols": [
+      "PANW"
+    ],
+    "sentiment": "bullish",
+    "summary": "Palo Alto Networks: expands into emerging markets. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000i",
+    "headline": "XOM beats Q earnings, raises guidance",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1779375818000,
+    "symbols": [
+      "XOM"
+    ],
+    "sentiment": "bullish",
+    "summary": "ExxonMobil Corp.: partners with Big Tech on AI integration. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003x",
+    "headline": "INTC comments on industry working group",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1779375599000,
+    "symbols": [
+      "INTC"
+    ],
+    "sentiment": "neutral",
+    "summary": "Intel Corp.: completes routine regulatory filing. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004n",
+    "headline": "NOC misses on revenue, shares slide",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1779363949000,
+    "symbols": [
+      "NOC"
+    ],
+    "sentiment": "bearish",
+    "summary": "Northrop Grumman: reports widening operating losses. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00016",
+    "headline": "GS announces $20B share buyback",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1779359029000,
+    "symbols": [
+      "GS"
+    ],
+    "sentiment": "bullish",
+    "summary": "Goldman Sachs: partners with Big Tech on AI integration. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00028",
+    "headline": "Oil rallies on OPEC+ output discipline",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1779358619000,
+    "symbols": [
+      "US10Y",
+      "VIX"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_00005",
+    "headline": "KO schedules investor day for next quarter",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1779352021000,
+    "symbols": [
+      "KO"
+    ],
+    "sentiment": "neutral",
+    "summary": "Coca-Cola Co.: files 10-Q with SEC. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00021",
+    "headline": "Oil rallies on OPEC+ output discipline",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1779337843000,
+    "symbols": [
+      "SPX"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_00035",
+    "headline": "NOC downgraded by analyst on competition fears",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1779331814000,
+    "symbols": [
+      "NOC"
+    ],
+    "sentiment": "bearish",
+    "summary": "Northrop Grumman: reports widening operating losses. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00020",
+    "headline": "CAT loses key executive amid restructure",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1779325238000,
+    "symbols": [
+      "CAT"
+    ],
+    "sentiment": "bearish",
+    "summary": "Caterpillar Inc.: loses key executive amid restructure. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003d",
+    "headline": "Oil rallies on OPEC+ output discipline",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1779304037000,
+    "symbols": [
+      "US10Y",
+      "US02Y"
+    ],
+    "sentiment": "bearish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0000r",
+    "headline": "PG announces $20B share buyback",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1779295550000,
+    "symbols": [
+      "PG"
+    ],
+    "sentiment": "bullish",
+    "summary": "Procter & Gamble: completes strategic acquisition. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00015",
+    "headline": "Treasury sells record 30Y at sticky yield",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1779292388000,
+    "symbols": [
+      "RUT"
+    ],
+    "sentiment": "bearish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0003a",
+    "headline": "Crypto extends rally; BTC above $97K",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1779291942000,
+    "symbols": [
+      "US10Y"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0002q",
+    "headline": "COP partners with Big Tech on AI integration",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1779262323000,
+    "symbols": [
+      "COP"
+    ],
+    "sentiment": "bullish",
+    "summary": "ConocoPhillips: wins major enterprise deal. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003z",
+    "headline": "SOL files 10-Q with SEC",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1779240805000,
+    "symbols": [
+      "SOL"
+    ],
+    "sentiment": "neutral",
+    "summary": "Solana: completes routine regulatory filing. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004w",
+    "headline": "AMGN files patent on novel architecture",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1779204231000,
+    "symbols": [
+      "AMGN"
+    ],
+    "sentiment": "bullish",
+    "summary": "Amgen Inc.: partners with Big Tech on AI integration. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001j",
+    "headline": "V completes routine regulatory filing",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1779200739000,
+    "symbols": [
+      "V"
+    ],
+    "sentiment": "neutral",
+    "summary": "Visa Inc.: announces refinancing of credit facility. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004e",
+    "headline": "RUT comments on industry working group",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1779197609000,
+    "symbols": [
+      "RUT"
+    ],
+    "sentiment": "neutral",
+    "summary": "Russell 2000 Index: begins beta of new feature set. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00014",
+    "headline": "TSLA schedules investor day for next quarter",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1779175943000,
+    "symbols": [
+      "TSLA"
+    ],
+    "sentiment": "neutral",
+    "summary": "Tesla Inc.: schedules investor day for next quarter. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004j",
+    "headline": "SCHW announces $20B share buyback",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1779174966000,
+    "symbols": [
+      "SCHW"
+    ],
+    "sentiment": "bullish",
+    "summary": "Charles Schwab: announces $20B share buyback. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000d",
+    "headline": "GOOGL files 10-Q with SEC",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1779167106000,
+    "symbols": [
+      "GOOGL"
+    ],
+    "sentiment": "neutral",
+    "summary": "Alphabet Inc. Class A: issues dividend record date. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002a",
+    "headline": "SLB partners with Big Tech on AI integration",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1779119880000,
+    "symbols": [
+      "SLB"
+    ],
+    "sentiment": "bullish",
+    "summary": "Schlumberger: completes strategic acquisition. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002x",
+    "headline": "MCD announces $20B share buyback",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1779111663000,
+    "symbols": [
+      "MCD"
+    ],
+    "sentiment": "bullish",
+    "summary": "McDonald's Corp.: partners with Big Tech on AI integration. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004k",
+    "headline": "WFC comments on industry working group",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1779079692000,
+    "symbols": [
+      "WFC"
+    ],
+    "sentiment": "neutral",
+    "summary": "Wells Fargo: announces refinancing of credit facility. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003r",
+    "headline": "SPOT cuts workforce by 8%",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1779066581000,
+    "symbols": [
+      "SPOT"
+    ],
+    "sentiment": "bearish",
+    "summary": "Spotify Technology: delays product launch citing supply chain. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0005c",
+    "headline": "10Y yield jumps as inflation print surprises",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1779063584000,
+    "symbols": [
+      "RUT",
+      "VIX",
+      "SPX"
+    ],
+    "sentiment": "bearish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0003f",
+    "headline": "MRNA completes routine regulatory filing",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1779038785000,
+    "symbols": [
+      "MRNA"
+    ],
+    "sentiment": "neutral",
+    "summary": "Moderna Inc.: issues dividend record date. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003i",
+    "headline": "ASML files patent on novel architecture",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1779033054000,
+    "symbols": [
+      "ASML"
+    ],
+    "sentiment": "bullish",
+    "summary": "ASML Holding: beats Q earnings, raises guidance. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002h",
+    "headline": "SHOP completes routine regulatory filing",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1779032578000,
+    "symbols": [
+      "SHOP"
+    ],
+    "sentiment": "neutral",
+    "summary": "Shopify Inc.: comments on industry working group. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00023",
+    "headline": "ADBE comments on industry working group",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1779025455000,
+    "symbols": [
+      "ADBE"
+    ],
+    "sentiment": "neutral",
+    "summary": "Adobe Inc.: issues dividend record date. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001c",
+    "headline": "UNH partners with Big Tech on AI integration",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778999501000,
+    "symbols": [
+      "UNH"
+    ],
+    "sentiment": "bullish",
+    "summary": "UnitedHealth Group: completes strategic acquisition. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003w",
+    "headline": "OXY comments on industry working group",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1778997567000,
+    "symbols": [
+      "OXY"
+    ],
+    "sentiment": "neutral",
+    "summary": "Occidental Petroleum: files 10-Q with SEC. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0005e",
+    "headline": "Senate advances bipartisan tariff bill",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1778978116000,
+    "symbols": [
+      "DXY"
+    ],
+    "sentiment": "bearish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0002l",
+    "headline": "WMT delays product launch citing supply chain",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1778958748000,
+    "symbols": [
+      "WMT"
+    ],
+    "sentiment": "bearish",
+    "summary": "Walmart Inc.: delays product launch citing supply chain. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001v",
+    "headline": "House committee schedules tech CEO testimony",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1778955947000,
+    "symbols": [
+      "DXY"
+    ],
+    "sentiment": "bearish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0000j",
+    "headline": "Treasury sells record 30Y at sticky yield",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1778955540000,
+    "symbols": [
+      "US10Y"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0001b",
+    "headline": "CVS reports record quarterly revenue",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778953520000,
+    "symbols": [
+      "CVS"
+    ],
+    "sentiment": "bullish",
+    "summary": "CVS Health Corp.: reports record quarterly revenue. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00006",
+    "headline": "Fed signals patience on rate cuts; markets digest",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1778943136000,
+    "symbols": [
+      "DXY",
+      "US02Y",
+      "SPX"
+    ],
+    "sentiment": "neutral",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0000p",
+    "headline": "ASML schedules investor day for next quarter",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778941359000,
+    "symbols": [
+      "ASML"
+    ],
+    "sentiment": "neutral",
+    "summary": "ASML Holding: files 10-Q with SEC. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001q",
+    "headline": "AVGO issues dividend record date",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1778938642000,
+    "symbols": [
+      "AVGO"
+    ],
+    "sentiment": "neutral",
+    "summary": "Broadcom Inc.: schedules investor day for next quarter. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004h",
+    "headline": "WFC files patent on novel architecture",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778920440000,
+    "symbols": [
+      "WFC"
+    ],
+    "sentiment": "bullish",
+    "summary": "Wells Fargo: secures key government contract. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00040",
+    "headline": "ECB holds; eyes Q3 cut window",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778915173000,
+    "symbols": [
+      "DJI",
+      "RUT"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0004o",
+    "headline": "SCHW files 10-Q with SEC",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1778910977000,
+    "symbols": [
+      "SCHW"
+    ],
+    "sentiment": "neutral",
+    "summary": "Charles Schwab: issues dividend record date. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000h",
+    "headline": "CMCSA completes strategic acquisition",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1778906880000,
+    "symbols": [
+      "CMCSA"
+    ],
+    "sentiment": "bullish",
+    "summary": "Comcast Corp.: completes strategic acquisition. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00047",
+    "headline": "XOM begins beta of new feature set",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1778900753000,
+    "symbols": [
+      "XOM"
+    ],
+    "sentiment": "neutral",
+    "summary": "ExxonMobil Corp.: files 10-Q with SEC. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00032",
+    "headline": "QCOM warns of softening demand in Q3",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1778899803000,
+    "symbols": [
+      "QCOM"
+    ],
+    "sentiment": "bearish",
+    "summary": "Qualcomm Inc.: downgraded by analyst on competition fears. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004z",
+    "headline": "Treasury sells record 30Y at sticky yield",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1778874499000,
+    "symbols": [
+      "SPX"
+    ],
+    "sentiment": "neutral",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0001w",
+    "headline": "XOM warns of softening demand in Q3",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1778865111000,
+    "symbols": [
+      "XOM"
+    ],
+    "sentiment": "bearish",
+    "summary": "ExxonMobil Corp.: delays product launch citing supply chain. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000e",
+    "headline": "MU reports record quarterly revenue",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1778863889000,
+    "symbols": [
+      "MU"
+    ],
+    "sentiment": "bullish",
+    "summary": "Micron Technology: reports record quarterly revenue. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004x",
+    "headline": "TMO issues dividend record date",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1778846977000,
+    "symbols": [
+      "TMO"
+    ],
+    "sentiment": "neutral",
+    "summary": "Thermo Fisher Sci.: completes routine regulatory filing. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00025",
+    "headline": "UPS completes strategic acquisition",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1778845946000,
+    "symbols": [
+      "UPS"
+    ],
+    "sentiment": "bullish",
+    "summary": "United Parcel Service: reports record quarterly revenue. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001p",
+    "headline": "WFC appoints new chief financial officer",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1778842470000,
+    "symbols": [
+      "WFC"
+    ],
+    "sentiment": "neutral",
+    "summary": "Wells Fargo: begins beta of new feature set. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001y",
+    "headline": "DDOG wins major enterprise deal",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1778838249000,
+    "symbols": [
+      "DDOG"
+    ],
+    "sentiment": "bullish",
+    "summary": "Datadog Inc.: partners with Big Tech on AI integration. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003m",
+    "headline": "10Y yield jumps as inflation print surprises",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1778827221000,
+    "symbols": [
+      "NDX"
+    ],
+    "sentiment": "bearish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0002g",
+    "headline": "ASML announces refinancing of credit facility",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1778820036000,
+    "symbols": [
+      "ASML"
+    ],
+    "sentiment": "neutral",
+    "summary": "ASML Holding: begins beta of new feature set. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00018",
+    "headline": "Oil rallies on OPEC+ output discipline",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1778816986000,
+    "symbols": [
+      "DXY",
+      "US02Y",
+      "DJI"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0001h",
+    "headline": "DHR appoints new chief financial officer",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778811389000,
+    "symbols": [
+      "DHR"
+    ],
+    "sentiment": "neutral",
+    "summary": "Danaher Corp.: comments on industry working group. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00038",
+    "headline": "MRNA secures key government contract",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1778792811000,
+    "symbols": [
+      "MRNA"
+    ],
+    "sentiment": "bullish",
+    "summary": "Moderna Inc.: reports record quarterly revenue. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004g",
+    "headline": "CRM partners with Big Tech on AI integration",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1778756994000,
+    "symbols": [
+      "CRM"
+    ],
+    "sentiment": "bullish",
+    "summary": "Salesforce Inc.: wins major enterprise deal. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00019",
+    "headline": "10Y yield jumps as inflation print surprises",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1778738391000,
+    "symbols": [
+      "US02Y",
+      "VIX",
+      "NDX"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0004m",
+    "headline": "BAC comments on industry working group",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1778726704000,
+    "symbols": [
+      "BAC"
+    ],
+    "sentiment": "neutral",
+    "summary": "Bank of America: completes routine regulatory filing. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002e",
+    "headline": "SNAP issues dividend record date",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778726468000,
+    "symbols": [
+      "SNAP"
+    ],
+    "sentiment": "neutral",
+    "summary": "Snap Inc.: begins beta of new feature set. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000x",
+    "headline": "WFC completes routine regulatory filing",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1778715245000,
+    "symbols": [
+      "WFC"
+    ],
+    "sentiment": "neutral",
+    "summary": "Wells Fargo: appoints new chief financial officer. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0005a",
+    "headline": "PEP partners with Big Tech on AI integration",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778707836000,
+    "symbols": [
+      "PEP"
+    ],
+    "sentiment": "bullish",
+    "summary": "PepsiCo Inc.: secures key government contract. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002w",
+    "headline": "ABNB announces $20B share buyback",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1778703367000,
+    "symbols": [
+      "ABNB"
+    ],
+    "sentiment": "bullish",
+    "summary": "Airbnb Inc.: expands into emerging markets. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003c",
+    "headline": "BTC comments on industry working group",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1778695920000,
+    "symbols": [
+      "BTC"
+    ],
+    "sentiment": "neutral",
+    "summary": "Bitcoin: appoints new chief financial officer. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003q",
+    "headline": "PFE reports record quarterly revenue",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1778692389000,
+    "symbols": [
+      "PFE"
+    ],
+    "sentiment": "bullish",
+    "summary": "Pfizer Inc.: expands into emerging markets. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004q",
+    "headline": "CVX faces antitrust probe in EU",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1778685862000,
+    "symbols": [
+      "CVX"
+    ],
+    "sentiment": "bearish",
+    "summary": "Chevron Corp.: loses key executive amid restructure. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00011",
+    "headline": "PFE files patent on novel architecture",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1778661140000,
+    "symbols": [
+      "PFE"
+    ],
+    "sentiment": "bullish",
+    "summary": "Pfizer Inc.: announces $20B share buyback. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004u",
+    "headline": "Treasury sells record 30Y at sticky yield",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778654673000,
+    "symbols": [
+      "US10Y",
+      "DXY",
+      "RUT"
+    ],
+    "sentiment": "bearish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0003b",
+    "headline": "Dollar strengthens against major currencies",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1778652435000,
+    "symbols": [
+      "DXY",
+      "SPX"
+    ],
+    "sentiment": "neutral",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_00024",
+    "headline": "Dollar strengthens against major currencies",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1778649877000,
+    "symbols": [
+      "SPX",
+      "NDX",
+      "VIX"
+    ],
+    "sentiment": "neutral",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0002y",
+    "headline": "SPX faces antitrust probe in EU",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1778648998000,
+    "symbols": [
+      "SPX"
+    ],
+    "sentiment": "bearish",
+    "summary": "S&P 500 Index: reports widening operating losses. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000g",
+    "headline": "BoJ widens YCC band; yen wobbles",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1778636964000,
+    "symbols": [
+      "RUT",
+      "US02Y"
+    ],
+    "sentiment": "neutral",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0000s",
+    "headline": "Crypto extends rally; BTC above $97K",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778636523000,
+    "symbols": [
+      "US10Y"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0004d",
+    "headline": "MS comments on industry working group",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1778620734000,
+    "symbols": [
+      "MS"
+    ],
+    "sentiment": "neutral",
+    "summary": "Morgan Stanley: files 10-Q with SEC. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00013",
+    "headline": "ECB holds; eyes Q3 cut window",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1778617896000,
+    "symbols": [
+      "US10Y",
+      "DXY"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0000q",
+    "headline": "CVS beats Q earnings, raises guidance",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778606504000,
+    "symbols": [
+      "CVS"
+    ],
+    "sentiment": "bullish",
+    "summary": "CVS Health Corp.: delivers strong forward guidance. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004a",
+    "headline": "ABBV completes strategic acquisition",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1778602767000,
+    "symbols": [
+      "ABBV"
+    ],
+    "sentiment": "bullish",
+    "summary": "AbbVie Inc.: reports record quarterly revenue. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00045",
+    "headline": "NVDA announces refinancing of credit facility",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1778595189000,
+    "symbols": [
+      "NVDA"
+    ],
+    "sentiment": "neutral",
+    "summary": "NVIDIA Corp.: files 10-Q with SEC. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002d",
+    "headline": "UPS files patent on novel architecture",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778587301000,
+    "symbols": [
+      "UPS"
+    ],
+    "sentiment": "bullish",
+    "summary": "United Parcel Service: completes strategic acquisition. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001r",
+    "headline": "BoJ widens YCC band; yen wobbles",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1778577295000,
+    "symbols": [
+      "RUT",
+      "US10Y"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0004y",
+    "headline": "ECB holds; eyes Q3 cut window",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778575605000,
+    "symbols": [
+      "DJI"
+    ],
+    "sentiment": "bearish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_00004",
+    "headline": "DHR completes routine regulatory filing",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778573068000,
+    "symbols": [
+      "DHR"
+    ],
+    "sentiment": "neutral",
+    "summary": "Danaher Corp.: completes routine regulatory filing. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001o",
+    "headline": "ECB holds; eyes Q3 cut window",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778560126000,
+    "symbols": [
+      "DXY"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0000z",
+    "headline": "BoJ widens YCC band; yen wobbles",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1778555228000,
+    "symbols": [
+      "US02Y",
+      "SPX"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0000a",
+    "headline": "MS reports record quarterly revenue",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1778521630000,
+    "symbols": [
+      "MS"
+    ],
+    "sentiment": "bullish",
+    "summary": "Morgan Stanley: expands into emerging markets. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000v",
+    "headline": "UBER begins beta of new feature set",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778517080000,
+    "symbols": [
+      "UBER"
+    ],
+    "sentiment": "neutral",
+    "summary": "Uber Technologies: announces refinancing of credit facility. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002s",
+    "headline": "PLD files patent on novel architecture",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778516969000,
+    "symbols": [
+      "PLD"
+    ],
+    "sentiment": "bullish",
+    "summary": "Prologis Inc.: files patent on novel architecture. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00029",
+    "headline": "House committee schedules tech CEO testimony",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1778506465000,
+    "symbols": [
+      "RUT",
+      "DJI"
+    ],
+    "sentiment": "neutral",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_00037",
+    "headline": "TEAM files 10-Q with SEC",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1778506125000,
+    "symbols": [
+      "TEAM"
+    ],
+    "sentiment": "neutral",
+    "summary": "Atlassian Corp.: announces refinancing of credit facility. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000m",
+    "headline": "DHR issues dividend record date",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778493963000,
+    "symbols": [
+      "DHR"
+    ],
+    "sentiment": "neutral",
+    "summary": "Danaher Corp.: announces refinancing of credit facility. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001s",
+    "headline": "Oil rallies on OPEC+ output discipline",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778479021000,
+    "symbols": [
+      "DXY",
+      "DJI",
+      "US10Y"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0004s",
+    "headline": "NOW warns of softening demand in Q3",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778453170000,
+    "symbols": [
+      "NOW"
+    ],
+    "sentiment": "bearish",
+    "summary": "ServiceNow Inc.: misses on revenue, shares slide. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000f",
+    "headline": "WFC announces refinancing of credit facility",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778451150000,
+    "symbols": [
+      "WFC"
+    ],
+    "sentiment": "neutral",
+    "summary": "Wells Fargo: issues dividend record date. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002i",
+    "headline": "VZ downgraded by analyst on competition fears",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1778449756000,
+    "symbols": [
+      "VZ"
+    ],
+    "sentiment": "bearish",
+    "summary": "Verizon Communications: settles class-action for $1.2B. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003v",
+    "headline": "DE secures key government contract",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1778441340000,
+    "symbols": [
+      "DE"
+    ],
+    "sentiment": "bullish",
+    "summary": "Deere & Co.: expands into emerging markets. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003p",
+    "headline": "BLK loses key executive amid restructure",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1778431131000,
+    "symbols": [
+      "BLK"
+    ],
+    "sentiment": "bearish",
+    "summary": "BlackRock Inc.: loses key executive amid restructure. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002v",
+    "headline": "AMGN files patent on novel architecture",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1778428135000,
+    "symbols": [
+      "AMGN"
+    ],
+    "sentiment": "bullish",
+    "summary": "Amgen Inc.: beats Q earnings, raises guidance. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0005g",
+    "headline": "Senate advances bipartisan tariff bill",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778410279000,
+    "symbols": [
+      "SPX",
+      "RUT",
+      "US02Y"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0002r",
+    "headline": "NET faces antitrust probe in EU",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1778408822000,
+    "symbols": [
+      "NET"
+    ],
+    "sentiment": "bearish",
+    "summary": "Cloudflare Inc.: warns of softening demand in Q3. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00056",
+    "headline": "MDB secures key government contract",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1778406465000,
+    "symbols": [
+      "MDB"
+    ],
+    "sentiment": "bullish",
+    "summary": "MongoDB Inc.: reports record quarterly revenue. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00057",
+    "headline": "House committee schedules tech CEO testimony",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1778392372000,
+    "symbols": [
+      "US10Y",
+      "US02Y",
+      "NDX"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_00054",
+    "headline": "OXY expands into emerging markets",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1778382584000,
+    "symbols": [
+      "OXY"
+    ],
+    "sentiment": "bullish",
+    "summary": "Occidental Petroleum: wins major enterprise deal. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000w",
+    "headline": "PLD begins beta of new feature set",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778380117000,
+    "symbols": [
+      "PLD"
+    ],
+    "sentiment": "neutral",
+    "summary": "Prologis Inc.: schedules investor day for next quarter. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004r",
+    "headline": "ABT appoints new chief financial officer",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778374558000,
+    "symbols": [
+      "ABT"
+    ],
+    "sentiment": "neutral",
+    "summary": "Abbott Laboratories: schedules investor day for next quarter. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002u",
+    "headline": "META delays product launch citing supply chain",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778371495000,
+    "symbols": [
+      "META"
+    ],
+    "sentiment": "bearish",
+    "summary": "Meta Platforms Inc.: warns of softening demand in Q3. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003j",
+    "headline": "ADBE completes routine regulatory filing",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1778351405000,
+    "symbols": [
+      "ADBE"
+    ],
+    "sentiment": "neutral",
+    "summary": "Adobe Inc.: schedules investor day for next quarter. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00009",
+    "headline": "MSFT downgraded by analyst on competition fears",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778337446000,
+    "symbols": [
+      "MSFT"
+    ],
+    "sentiment": "bearish",
+    "summary": "Microsoft Corp.: warns of softening demand in Q3. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00044",
+    "headline": "ABNB completes strategic acquisition",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778333675000,
+    "symbols": [
+      "ABNB"
+    ],
+    "sentiment": "bullish",
+    "summary": "Airbnb Inc.: files patent on novel architecture. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003y",
+    "headline": "House committee schedules tech CEO testimony",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778325879000,
+    "symbols": [
+      "RUT",
+      "DXY"
+    ],
+    "sentiment": "bullish",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_00041",
+    "headline": "NKE delays product launch citing supply chain",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778298462000,
+    "symbols": [
+      "NKE"
+    ],
+    "sentiment": "bearish",
+    "summary": "Nike Inc.: downgraded by analyst on competition fears. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00031",
+    "headline": "AAPL announces $20B share buyback",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1778296643000,
+    "symbols": [
+      "AAPL"
+    ],
+    "sentiment": "bullish",
+    "summary": "Apple Inc.: announces $20B share buyback. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00010",
+    "headline": "FCX loses key executive amid restructure",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1778295788000,
+    "symbols": [
+      "FCX"
+    ],
+    "sentiment": "bearish",
+    "summary": "Freeport-McMoRan: settles class-action for $1.2B. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004t",
+    "headline": "META faces antitrust probe in EU",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1778295247000,
+    "symbols": [
+      "META"
+    ],
+    "sentiment": "bearish",
+    "summary": "Meta Platforms Inc.: misses on revenue, shares slide. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003u",
+    "headline": "Senate advances bipartisan tariff bill",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778262484000,
+    "symbols": [
+      "DJI"
+    ],
+    "sentiment": "neutral",
+    "isGlobal": true,
+    "summary": "Market-moving macro headline; check chart context and rates desk note."
+  },
+  {
+    "id": "news_0002o",
+    "headline": "ETH secures key government contract",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778260526000,
+    "symbols": [
+      "ETH"
+    ],
+    "sentiment": "bullish",
+    "summary": "Ethereum: beats Q earnings, raises guidance. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00001",
+    "headline": "META delays product launch citing supply chain",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1778253830000,
+    "symbols": [
+      "META"
+    ],
+    "sentiment": "bearish",
+    "summary": "Meta Platforms Inc.: delays product launch citing supply chain. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003t",
+    "headline": "SCHW secures key government contract",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1778245054000,
+    "symbols": [
+      "SCHW"
+    ],
+    "sentiment": "bullish",
+    "summary": "Charles Schwab: beats Q earnings, raises guidance. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001x",
+    "headline": "LLY issues profit warning ahead of guidance",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778239207000,
+    "symbols": [
+      "LLY"
+    ],
+    "sentiment": "bearish",
+    "summary": "Eli Lilly & Co.: misses on revenue, shares slide. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001t",
+    "headline": "NEM partners with Big Tech on AI integration",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778233570000,
+    "symbols": [
+      "NEM"
+    ],
+    "sentiment": "bullish",
+    "summary": "Newmont Corp.: expands into emerging markets. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001z",
+    "headline": "CAT secures key government contract",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1778220264000,
+    "symbols": [
+      "CAT"
+    ],
+    "sentiment": "bullish",
+    "summary": "Caterpillar Inc.: beats Q earnings, raises guidance. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001a",
+    "headline": "TMO files patent on novel architecture",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1778199881000,
+    "symbols": [
+      "TMO"
+    ],
+    "sentiment": "bullish",
+    "summary": "Thermo Fisher Sci.: expands into emerging markets. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003g",
+    "headline": "UBER reports widening operating losses",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778197797000,
+    "symbols": [
+      "UBER"
+    ],
+    "sentiment": "bearish",
+    "summary": "Uber Technologies: delays product launch citing supply chain. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0005k",
+    "headline": "ETH delays product launch citing supply chain",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1778186197000,
+    "symbols": [
+      "ETH"
+    ],
+    "sentiment": "bearish",
+    "summary": "Ethereum: warns of softening demand in Q3. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004i",
+    "headline": "JNJ announces $20B share buyback",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1778179904000,
+    "symbols": [
+      "JNJ"
+    ],
+    "sentiment": "bullish",
+    "summary": "Johnson & Johnson: partners with Big Tech on AI integration. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001u",
+    "headline": "EOG issues profit warning ahead of guidance",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1778178297000,
+    "symbols": [
+      "EOG"
+    ],
+    "sentiment": "bearish",
+    "summary": "EOG Resources: cuts workforce by 8%. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000n",
+    "headline": "CAT appoints new chief financial officer",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1778169168000,
+    "symbols": [
+      "CAT"
+    ],
+    "sentiment": "neutral",
+    "summary": "Caterpillar Inc.: completes routine regulatory filing. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00053",
+    "headline": "SNOW partners with Big Tech on AI integration",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778163873000,
+    "symbols": [
+      "SNOW"
+    ],
+    "sentiment": "bullish",
+    "summary": "Snowflake Inc.: completes strategic acquisition. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00008",
+    "headline": "TSLA issues dividend record date",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778162206000,
+    "symbols": [
+      "TSLA"
+    ],
+    "sentiment": "neutral",
+    "summary": "Tesla Inc.: begins beta of new feature set. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002t",
+    "headline": "DUK files patent on novel architecture",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1778143939000,
+    "symbols": [
+      "DUK"
+    ],
+    "sentiment": "bullish",
+    "summary": "Duke Energy: beats Q earnings, raises guidance. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0005h",
+    "headline": "PINS secures key government contract",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778124151000,
+    "symbols": [
+      "PINS"
+    ],
+    "sentiment": "bullish",
+    "summary": "Pinterest Inc.: expands into emerging markets. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00033",
+    "headline": "NET completes routine regulatory filing",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778122920000,
+    "symbols": [
+      "NET"
+    ],
+    "sentiment": "neutral",
+    "summary": "Cloudflare Inc.: completes routine regulatory filing. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000o",
+    "headline": "JNJ secures key government contract",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1778114586000,
+    "symbols": [
+      "JNJ"
+    ],
+    "sentiment": "bullish",
+    "summary": "Johnson & Johnson: beats Q earnings, raises guidance. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00042",
+    "headline": "ZS delivers strong forward guidance",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778107065000,
+    "symbols": [
+      "ZS"
+    ],
+    "sentiment": "bullish",
+    "summary": "Zscaler Inc.: completes strategic acquisition. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0005b",
+    "headline": "CRWD partners with Big Tech on AI integration",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778090700000,
+    "symbols": [
+      "CRWD"
+    ],
+    "sentiment": "bullish",
+    "summary": "CrowdStrike Holdings: wins major enterprise deal. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00030",
+    "headline": "VZ expands into emerging markets",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778087350000,
+    "symbols": [
+      "VZ"
+    ],
+    "sentiment": "bullish",
+    "summary": "Verizon Communications: wins major enterprise deal. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00048",
+    "headline": "QCOM begins beta of new feature set",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1778072019000,
+    "symbols": [
+      "QCOM"
+    ],
+    "sentiment": "neutral",
+    "summary": "Qualcomm Inc.: schedules investor day for next quarter. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002n",
+    "headline": "AVGO delivers strong forward guidance",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1778055323000,
+    "symbols": [
+      "AVGO"
+    ],
+    "sentiment": "bullish",
+    "summary": "Broadcom Inc.: secures key government contract. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001n",
+    "headline": "TSLA issues profit warning ahead of guidance",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778043080000,
+    "symbols": [
+      "TSLA"
+    ],
+    "sentiment": "bearish",
+    "summary": "Tesla Inc.: settles class-action for $1.2B. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00049",
+    "headline": "KO announces $20B share buyback",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1778032881000,
+    "symbols": [
+      "KO"
+    ],
+    "sentiment": "bullish",
+    "summary": "Coca-Cola Co.: delivers strong forward guidance. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004l",
+    "headline": "KO expands into emerging markets",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1778023088000,
+    "symbols": [
+      "KO"
+    ],
+    "sentiment": "bullish",
+    "summary": "Coca-Cola Co.: announces $20B share buyback. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001e",
+    "headline": "META comments on industry working group",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1778012372000,
+    "symbols": [
+      "META"
+    ],
+    "sentiment": "neutral",
+    "summary": "Meta Platforms Inc.: completes routine regulatory filing. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00043",
+    "headline": "MDB begins beta of new feature set",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1778011112000,
+    "symbols": [
+      "MDB"
+    ],
+    "sentiment": "neutral",
+    "summary": "MongoDB Inc.: files 10-Q with SEC. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002z",
+    "headline": "WFC reports widening operating losses",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1778010161000,
+    "symbols": [
+      "WFC"
+    ],
+    "sentiment": "bearish",
+    "summary": "Wells Fargo: downgraded by analyst on competition fears. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002m",
+    "headline": "DE beats Q earnings, raises guidance",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1777998093000,
+    "symbols": [
+      "DE"
+    ],
+    "sentiment": "bullish",
+    "summary": "Deere & Co.: partners with Big Tech on AI integration. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004p",
+    "headline": "GE announces $20B share buyback",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1777985374000,
+    "symbols": [
+      "GE"
+    ],
+    "sentiment": "bullish",
+    "summary": "GE Aerospace: completes strategic acquisition. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002c",
+    "headline": "SQ delays product launch citing supply chain",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1777971392000,
+    "symbols": [
+      "SQ"
+    ],
+    "sentiment": "bearish",
+    "summary": "Block Inc.: downgraded by analyst on competition fears. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00036",
+    "headline": "DUK files 10-Q with SEC",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1777961441000,
+    "symbols": [
+      "DUK"
+    ],
+    "sentiment": "neutral",
+    "summary": "Duke Energy: files 10-Q with SEC. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002f",
+    "headline": "REGN completes routine regulatory filing",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1777953507000,
+    "symbols": [
+      "REGN"
+    ],
+    "sentiment": "neutral",
+    "summary": "Regeneron Pharma: comments on industry working group. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0005j",
+    "headline": "SCHW reports record quarterly revenue",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1777945221000,
+    "symbols": [
+      "SCHW"
+    ],
+    "sentiment": "bullish",
+    "summary": "Charles Schwab: files patent on novel architecture. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003k",
+    "headline": "TSLA wins major enterprise deal",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1777940961000,
+    "symbols": [
+      "TSLA"
+    ],
+    "sentiment": "bullish",
+    "summary": "Tesla Inc.: wins major enterprise deal. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002b",
+    "headline": "JPM announces $20B share buyback",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1777939467000,
+    "symbols": [
+      "JPM"
+    ],
+    "sentiment": "bullish",
+    "summary": "JPMorgan Chase: beats Q earnings, raises guidance. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0005f",
+    "headline": "LIN warns of softening demand in Q3",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1777924884000,
+    "symbols": [
+      "LIN"
+    ],
+    "sentiment": "bearish",
+    "summary": "Linde plc: downgraded by analyst on competition fears. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00007",
+    "headline": "ABBV partners with Big Tech on AI integration",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1777920555000,
+    "symbols": [
+      "ABBV"
+    ],
+    "sentiment": "bullish",
+    "summary": "AbbVie Inc.: expands into emerging markets. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000y",
+    "headline": "SO reports widening operating losses",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1777902278000,
+    "symbols": [
+      "SO"
+    ],
+    "sentiment": "bearish",
+    "summary": "Southern Co.: issues profit warning ahead of guidance. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003n",
+    "headline": "ETH completes strategic acquisition",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1777900763000,
+    "symbols": [
+      "ETH"
+    ],
+    "sentiment": "bullish",
+    "summary": "Ethereum: secures key government contract. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0005i",
+    "headline": "VRTX cuts workforce by 8%",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1777849527000,
+    "symbols": [
+      "VRTX"
+    ],
+    "sentiment": "bearish",
+    "summary": "Vertex Pharma: reports widening operating losses. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00034",
+    "headline": "NFLX wins major enterprise deal",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1777842195000,
+    "symbols": [
+      "NFLX"
+    ],
+    "sentiment": "bullish",
+    "summary": "Netflix Inc.: files patent on novel architecture. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000t",
+    "headline": "AXP files 10-Q with SEC",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1777838769000,
+    "symbols": [
+      "AXP"
+    ],
+    "sentiment": "neutral",
+    "summary": "American Express: issues dividend record date. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002k",
+    "headline": "NOW completes routine regulatory filing",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1777827802000,
+    "symbols": [
+      "NOW"
+    ],
+    "sentiment": "neutral",
+    "summary": "ServiceNow Inc.: files 10-Q with SEC. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000u",
+    "headline": "TEAM wins major enterprise deal",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1777797560000,
+    "symbols": [
+      "TEAM"
+    ],
+    "sentiment": "bullish",
+    "summary": "Atlassian Corp.: files patent on novel architecture. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00039",
+    "headline": "GILD comments on industry working group",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1777790753000,
+    "symbols": [
+      "GILD"
+    ],
+    "sentiment": "neutral",
+    "summary": "Gilead Sciences: completes routine regulatory filing. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001m",
+    "headline": "COST announces $20B share buyback",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1777771463000,
+    "symbols": [
+      "COST"
+    ],
+    "sentiment": "bullish",
+    "summary": "Costco Wholesale: completes strategic acquisition. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00003",
+    "headline": "JNJ files 10-Q with SEC",
+    "source": "Reuters",
+    "url": "#",
+    "publishedAt": 1777767660000,
+    "symbols": [
+      "JNJ"
+    ],
+    "sentiment": "neutral",
+    "summary": "Johnson & Johnson: appoints new chief financial officer. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00046",
+    "headline": "MU wins major enterprise deal",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1777765937000,
+    "symbols": [
+      "MU"
+    ],
+    "sentiment": "bullish",
+    "summary": "Micron Technology: completes strategic acquisition. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003l",
+    "headline": "ZS completes routine regulatory filing",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1777755138000,
+    "symbols": [
+      "ZS"
+    ],
+    "sentiment": "neutral",
+    "summary": "Zscaler Inc.: begins beta of new feature set. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001l",
+    "headline": "GD announces $20B share buyback",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1777753578000,
+    "symbols": [
+      "GD"
+    ],
+    "sentiment": "bullish",
+    "summary": "General Dynamics: completes strategic acquisition. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00051",
+    "headline": "T partners with Big Tech on AI integration",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1777733715000,
+    "symbols": [
+      "T"
+    ],
+    "sentiment": "bullish",
+    "summary": "AT&T Inc.: announces $20B share buyback. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004c",
+    "headline": "ETH announces refinancing of credit facility",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1777729635000,
+    "symbols": [
+      "ETH"
+    ],
+    "sentiment": "neutral",
+    "summary": "Ethereum: begins beta of new feature set. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003s",
+    "headline": "DE secures key government contract",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1777725776000,
+    "symbols": [
+      "DE"
+    ],
+    "sentiment": "bullish",
+    "summary": "Deere & Co.: reports record quarterly revenue. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001d",
+    "headline": "SO beats Q earnings, raises guidance",
+    "source": "Barron's",
+    "url": "#",
+    "publishedAt": 1777710387000,
+    "symbols": [
+      "SO"
+    ],
+    "sentiment": "bullish",
+    "summary": "Southern Co.: files patent on novel architecture. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00022",
+    "headline": "COST announces refinancing of credit facility",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1777710143000,
+    "symbols": [
+      "COST"
+    ],
+    "sentiment": "neutral",
+    "summary": "Costco Wholesale: schedules investor day for next quarter. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00058",
+    "headline": "SNOW announces $20B share buyback",
+    "source": "Axios",
+    "url": "#",
+    "publishedAt": 1777709521000,
+    "symbols": [
+      "SNOW"
+    ],
+    "sentiment": "bullish",
+    "summary": "Snowflake Inc.: announces $20B share buyback. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000b",
+    "headline": "SOL files patent on novel architecture",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1777703484000,
+    "symbols": [
+      "SOL"
+    ],
+    "sentiment": "bullish",
+    "summary": "Solana: wins major enterprise deal. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0003o",
+    "headline": "WMT settles class-action for $1.2B",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1777701645000,
+    "symbols": [
+      "WMT"
+    ],
+    "sentiment": "bearish",
+    "summary": "Walmart Inc.: warns of softening demand in Q3. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001i",
+    "headline": "PLD begins beta of new feature set",
+    "source": "FT",
+    "url": "#",
+    "publishedAt": 1777700262000,
+    "symbols": [
+      "PLD"
+    ],
+    "sentiment": "neutral",
+    "summary": "Prologis Inc.: appoints new chief financial officer. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0001g",
+    "headline": "SCHW comments on industry working group",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1777680323000,
+    "symbols": [
+      "SCHW"
+    ],
+    "sentiment": "neutral",
+    "summary": "Charles Schwab: announces refinancing of credit facility. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0004b",
+    "headline": "MRK reports record quarterly revenue",
+    "source": "The Information",
+    "url": "#",
+    "publishedAt": 1777670051000,
+    "symbols": [
+      "MRK"
+    ],
+    "sentiment": "bullish",
+    "summary": "Merck & Co.: completes strategic acquisition. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0002p",
+    "headline": "ZS delays product launch citing supply chain",
+    "source": "CNBC",
+    "url": "#",
+    "publishedAt": 1777620481000,
+    "symbols": [
+      "ZS"
+    ],
+    "sentiment": "bearish",
+    "summary": "Zscaler Inc.: warns of softening demand in Q3. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0005d",
+    "headline": "JNJ cuts workforce by 8%",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1777610412000,
+    "symbols": [
+      "JNJ"
+    ],
+    "sentiment": "bearish",
+    "summary": "Johnson & Johnson: settles class-action for $1.2B. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00012",
+    "headline": "LOW loses key executive amid restructure",
+    "source": "Bloomberg",
+    "url": "#",
+    "publishedAt": 1777606819000,
+    "symbols": [
+      "LOW"
+    ],
+    "sentiment": "bearish",
+    "summary": "Lowe's Companies: delays product launch citing supply chain. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_00055",
+    "headline": "MSFT reports widening operating losses",
+    "source": "Semafor",
+    "url": "#",
+    "publishedAt": 1777599316000,
+    "symbols": [
+      "MSFT"
+    ],
+    "sentiment": "bearish",
+    "summary": "Microsoft Corp.: cuts workforce by 8%. Watch for follow-through on next session open."
+  },
+  {
+    "id": "news_0000k",
+    "headline": "TMO files patent on novel architecture",
+    "source": "WSJ",
+    "url": "#",
+    "publishedAt": 1777587033000,
+    "symbols": [
+      "TMO"
+    ],
+    "sentiment": "bullish",
+    "summary": "Thermo Fisher Sci.: delivers strong forward guidance. Watch for follow-through on next session open."
+  }
+]

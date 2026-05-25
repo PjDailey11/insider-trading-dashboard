@@ -1,0 +1,862 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "sector": "Technology",
+    "exchange": "NASDAQ",
+    "marketCap": 3000000000000,
+    "industry": "Consumer Electronics"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corp.",
+    "sector": "Technology",
+    "exchange": "NASDAQ",
+    "marketCap": 3100000000000,
+    "industry": "Software"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc. Class A",
+    "sector": "Communication",
+    "exchange": "NASDAQ",
+    "marketCap": 2200000000000,
+    "industry": "Internet Services"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc.",
+    "sector": "Consumer",
+    "exchange": "NASDAQ",
+    "marketCap": 2100000000000,
+    "industry": "E-Commerce"
+  },
+  {
+    "symbol": "META",
+    "name": "Meta Platforms Inc.",
+    "sector": "Communication",
+    "exchange": "NASDAQ",
+    "marketCap": 1400000000000,
+    "industry": "Social Media"
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp.",
+    "sector": "Semiconductors",
+    "exchange": "NASDAQ",
+    "marketCap": 3400000000000,
+    "industry": "GPUs"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla Inc.",
+    "sector": "Consumer",
+    "exchange": "NASDAQ",
+    "marketCap": 790000000000,
+    "industry": "Electric Vehicles"
+  },
+  {
+    "symbol": "NFLX",
+    "name": "Netflix Inc.",
+    "sector": "Communication",
+    "exchange": "NASDAQ",
+    "marketCap": 300000000000,
+    "industry": "Streaming"
+  },
+  {
+    "symbol": "ADBE",
+    "name": "Adobe Inc.",
+    "sector": "Technology",
+    "exchange": "NASDAQ",
+    "marketCap": 230000000000,
+    "industry": "Creative Software"
+  },
+  {
+    "symbol": "CRM",
+    "name": "Salesforce Inc.",
+    "sector": "Technology",
+    "exchange": "NYSE",
+    "marketCap": 310000000000,
+    "industry": "CRM"
+  },
+  {
+    "symbol": "ORCL",
+    "name": "Oracle Corp.",
+    "sector": "Technology",
+    "exchange": "NYSE",
+    "marketCap": 490000000000,
+    "industry": "Database"
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc.",
+    "sector": "Semiconductors",
+    "exchange": "NASDAQ",
+    "marketCap": 790000000000,
+    "industry": "Chips"
+  },
+  {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices",
+    "sector": "Semiconductors",
+    "exchange": "NASDAQ",
+    "marketCap": 230000000000
+  },
+  {
+    "symbol": "INTC",
+    "name": "Intel Corp.",
+    "sector": "Semiconductors",
+    "exchange": "NASDAQ",
+    "marketCap": 95000000000
+  },
+  {
+    "symbol": "QCOM",
+    "name": "Qualcomm Inc.",
+    "sector": "Semiconductors",
+    "exchange": "NASDAQ",
+    "marketCap": 180000000000
+  },
+  {
+    "symbol": "MU",
+    "name": "Micron Technology",
+    "sector": "Semiconductors",
+    "exchange": "NASDAQ",
+    "marketCap": 113000000000
+  },
+  {
+    "symbol": "AMAT",
+    "name": "Applied Materials",
+    "sector": "Semiconductors",
+    "exchange": "NASDAQ",
+    "marketCap": 148000000000
+  },
+  {
+    "symbol": "TSM",
+    "name": "Taiwan Semi",
+    "sector": "Semiconductors",
+    "exchange": "NYSE",
+    "marketCap": 980000000000
+  },
+  {
+    "symbol": "ASML",
+    "name": "ASML Holding",
+    "sector": "Semiconductors",
+    "exchange": "NASDAQ",
+    "marketCap": 280000000000
+  },
+  {
+    "symbol": "MRVL",
+    "name": "Marvell Technology",
+    "sector": "Semiconductors",
+    "exchange": "NASDAQ",
+    "marketCap": 82000000000
+  },
+  {
+    "symbol": "JPM",
+    "name": "JPMorgan Chase",
+    "sector": "Financials",
+    "exchange": "NYSE",
+    "marketCap": 670000000000
+  },
+  {
+    "symbol": "BAC",
+    "name": "Bank of America",
+    "sector": "Financials",
+    "exchange": "NYSE",
+    "marketCap": 340000000000
+  },
+  {
+    "symbol": "WFC",
+    "name": "Wells Fargo",
+    "sector": "Financials",
+    "exchange": "NYSE",
+    "marketCap": 240000000000
+  },
+  {
+    "symbol": "GS",
+    "name": "Goldman Sachs",
+    "sector": "Financials",
+    "exchange": "NYSE",
+    "marketCap": 175000000000
+  },
+  {
+    "symbol": "MS",
+    "name": "Morgan Stanley",
+    "sector": "Financials",
+    "exchange": "NYSE",
+    "marketCap": 207000000000
+  },
+  {
+    "symbol": "C",
+    "name": "Citigroup Inc.",
+    "sector": "Financials",
+    "exchange": "NYSE",
+    "marketCap": 137000000000
+  },
+  {
+    "symbol": "BLK",
+    "name": "BlackRock Inc.",
+    "sector": "Financials",
+    "exchange": "NYSE",
+    "marketCap": 150000000000
+  },
+  {
+    "symbol": "SCHW",
+    "name": "Charles Schwab",
+    "sector": "Financials",
+    "exchange": "NYSE",
+    "marketCap": 142000000000
+  },
+  {
+    "symbol": "AXP",
+    "name": "American Express",
+    "sector": "Financials",
+    "exchange": "NYSE",
+    "marketCap": 213000000000
+  },
+  {
+    "symbol": "V",
+    "name": "Visa Inc.",
+    "sector": "Financials",
+    "exchange": "NYSE",
+    "marketCap": 615000000000
+  },
+  {
+    "symbol": "MA",
+    "name": "Mastercard Inc.",
+    "sector": "Financials",
+    "exchange": "NYSE",
+    "marketCap": 485000000000
+  },
+  {
+    "symbol": "XOM",
+    "name": "ExxonMobil Corp.",
+    "sector": "Energy",
+    "exchange": "NYSE",
+    "marketCap": 520000000000
+  },
+  {
+    "symbol": "CVX",
+    "name": "Chevron Corp.",
+    "sector": "Energy",
+    "exchange": "NYSE",
+    "marketCap": 295000000000
+  },
+  {
+    "symbol": "COP",
+    "name": "ConocoPhillips",
+    "sector": "Energy",
+    "exchange": "NYSE",
+    "marketCap": 130000000000
+  },
+  {
+    "symbol": "SLB",
+    "name": "Schlumberger",
+    "sector": "Energy",
+    "exchange": "NYSE",
+    "marketCap": 58000000000
+  },
+  {
+    "symbol": "EOG",
+    "name": "EOG Resources",
+    "sector": "Energy",
+    "exchange": "NYSE",
+    "marketCap": 70000000000
+  },
+  {
+    "symbol": "OXY",
+    "name": "Occidental Petroleum",
+    "sector": "Energy",
+    "exchange": "NYSE",
+    "marketCap": 45000000000
+  },
+  {
+    "symbol": "MPC",
+    "name": "Marathon Petroleum",
+    "sector": "Energy",
+    "exchange": "NYSE",
+    "marketCap": 51000000000
+  },
+  {
+    "symbol": "WMT",
+    "name": "Walmart Inc.",
+    "sector": "Consumer",
+    "exchange": "NYSE",
+    "marketCap": 730000000000
+  },
+  {
+    "symbol": "COST",
+    "name": "Costco Wholesale",
+    "sector": "Consumer",
+    "exchange": "NASDAQ",
+    "marketCap": 412000000000
+  },
+  {
+    "symbol": "HD",
+    "name": "Home Depot Inc.",
+    "sector": "Consumer",
+    "exchange": "NYSE",
+    "marketCap": 408000000000
+  },
+  {
+    "symbol": "NKE",
+    "name": "Nike Inc.",
+    "sector": "Consumer",
+    "exchange": "NYSE",
+    "marketCap": 115000000000
+  },
+  {
+    "symbol": "MCD",
+    "name": "McDonald's Corp.",
+    "sector": "Consumer",
+    "exchange": "NYSE",
+    "marketCap": 213000000000
+  },
+  {
+    "symbol": "SBUX",
+    "name": "Starbucks Corp.",
+    "sector": "Consumer",
+    "exchange": "NASDAQ",
+    "marketCap": 110000000000
+  },
+  {
+    "symbol": "DIS",
+    "name": "Walt Disney Co.",
+    "sector": "Communication",
+    "exchange": "NYSE",
+    "marketCap": 205000000000
+  },
+  {
+    "symbol": "TGT",
+    "name": "Target Corp.",
+    "sector": "Consumer",
+    "exchange": "NYSE",
+    "marketCap": 63000000000
+  },
+  {
+    "symbol": "LOW",
+    "name": "Lowe's Companies",
+    "sector": "Consumer",
+    "exchange": "NYSE",
+    "marketCap": 150000000000
+  },
+  {
+    "symbol": "PG",
+    "name": "Procter & Gamble",
+    "sector": "Consumer",
+    "exchange": "NYSE",
+    "marketCap": 405000000000
+  },
+  {
+    "symbol": "KO",
+    "name": "Coca-Cola Co.",
+    "sector": "Consumer",
+    "exchange": "NYSE",
+    "marketCap": 275000000000
+  },
+  {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc.",
+    "sector": "Consumer",
+    "exchange": "NASDAQ",
+    "marketCap": 222000000000
+  },
+  {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "sector": "Healthcare",
+    "exchange": "NYSE",
+    "marketCap": 380000000000
+  },
+  {
+    "symbol": "UNH",
+    "name": "UnitedHealth Group",
+    "sector": "Healthcare",
+    "exchange": "NYSE",
+    "marketCap": 550000000000
+  },
+  {
+    "symbol": "LLY",
+    "name": "Eli Lilly & Co.",
+    "sector": "Healthcare",
+    "exchange": "NYSE",
+    "marketCap": 730000000000
+  },
+  {
+    "symbol": "PFE",
+    "name": "Pfizer Inc.",
+    "sector": "Healthcare",
+    "exchange": "NYSE",
+    "marketCap": 147000000000
+  },
+  {
+    "symbol": "MRK",
+    "name": "Merck & Co.",
+    "sector": "Healthcare",
+    "exchange": "NYSE",
+    "marketCap": 253000000000
+  },
+  {
+    "symbol": "ABBV",
+    "name": "AbbVie Inc.",
+    "sector": "Healthcare",
+    "exchange": "NYSE",
+    "marketCap": 310000000000
+  },
+  {
+    "symbol": "TMO",
+    "name": "Thermo Fisher Sci.",
+    "sector": "Healthcare",
+    "exchange": "NYSE",
+    "marketCap": 202000000000
+  },
+  {
+    "symbol": "ABT",
+    "name": "Abbott Laboratories",
+    "sector": "Healthcare",
+    "exchange": "NYSE",
+    "marketCap": 196000000000
+  },
+  {
+    "symbol": "DHR",
+    "name": "Danaher Corp.",
+    "sector": "Healthcare",
+    "exchange": "NYSE",
+    "marketCap": 173000000000
+  },
+  {
+    "symbol": "CVS",
+    "name": "CVS Health Corp.",
+    "sector": "Healthcare",
+    "exchange": "NYSE",
+    "marketCap": 70000000000
+  },
+  {
+    "symbol": "AMGN",
+    "name": "Amgen Inc.",
+    "sector": "Biotech",
+    "exchange": "NASDAQ",
+    "marketCap": 168000000000
+  },
+  {
+    "symbol": "GILD",
+    "name": "Gilead Sciences",
+    "sector": "Biotech",
+    "exchange": "NASDAQ",
+    "marketCap": 116000000000
+  },
+  {
+    "symbol": "REGN",
+    "name": "Regeneron Pharma",
+    "sector": "Biotech",
+    "exchange": "NASDAQ",
+    "marketCap": 77000000000
+  },
+  {
+    "symbol": "VRTX",
+    "name": "Vertex Pharma",
+    "sector": "Biotech",
+    "exchange": "NASDAQ",
+    "marketCap": 124000000000
+  },
+  {
+    "symbol": "MRNA",
+    "name": "Moderna Inc.",
+    "sector": "Biotech",
+    "exchange": "NASDAQ",
+    "marketCap": 16000000000
+  },
+  {
+    "symbol": "BIIB",
+    "name": "Biogen Inc.",
+    "sector": "Biotech",
+    "exchange": "NASDAQ",
+    "marketCap": 24000000000
+  },
+  {
+    "symbol": "ILMN",
+    "name": "Illumina Inc.",
+    "sector": "Biotech",
+    "exchange": "NASDAQ",
+    "marketCap": 22000000000
+  },
+  {
+    "symbol": "T",
+    "name": "AT&T Inc.",
+    "sector": "Communication",
+    "exchange": "NYSE",
+    "marketCap": 158000000000
+  },
+  {
+    "symbol": "VZ",
+    "name": "Verizon Communications",
+    "sector": "Communication",
+    "exchange": "NYSE",
+    "marketCap": 176000000000
+  },
+  {
+    "symbol": "TMUS",
+    "name": "T-Mobile US",
+    "sector": "Communication",
+    "exchange": "NASDAQ",
+    "marketCap": 268000000000
+  },
+  {
+    "symbol": "CMCSA",
+    "name": "Comcast Corp.",
+    "sector": "Communication",
+    "exchange": "NASDAQ",
+    "marketCap": 156000000000
+  },
+  {
+    "symbol": "SPOT",
+    "name": "Spotify Technology",
+    "sector": "Communication",
+    "exchange": "NYSE",
+    "marketCap": 92000000000
+  },
+  {
+    "symbol": "SNAP",
+    "name": "Snap Inc.",
+    "sector": "Communication",
+    "exchange": "NYSE",
+    "marketCap": 18000000000
+  },
+  {
+    "symbol": "PINS",
+    "name": "Pinterest Inc.",
+    "sector": "Communication",
+    "exchange": "NYSE",
+    "marketCap": 20000000000
+  },
+  {
+    "symbol": "BA",
+    "name": "Boeing Co.",
+    "sector": "Industrial",
+    "exchange": "NYSE",
+    "marketCap": 105000000000
+  },
+  {
+    "symbol": "CAT",
+    "name": "Caterpillar Inc.",
+    "sector": "Industrial",
+    "exchange": "NYSE",
+    "marketCap": 188000000000
+  },
+  {
+    "symbol": "GE",
+    "name": "GE Aerospace",
+    "sector": "Industrial",
+    "exchange": "NYSE",
+    "marketCap": 215000000000
+  },
+  {
+    "symbol": "RTX",
+    "name": "RTX Corp.",
+    "sector": "Industrial",
+    "exchange": "NYSE",
+    "marketCap": 165000000000
+  },
+  {
+    "symbol": "LMT",
+    "name": "Lockheed Martin",
+    "sector": "Industrial",
+    "exchange": "NYSE",
+    "marketCap": 128000000000
+  },
+  {
+    "symbol": "NOC",
+    "name": "Northrop Grumman",
+    "sector": "Industrial",
+    "exchange": "NYSE",
+    "marketCap": 71000000000
+  },
+  {
+    "symbol": "GD",
+    "name": "General Dynamics",
+    "sector": "Industrial",
+    "exchange": "NYSE",
+    "marketCap": 78000000000
+  },
+  {
+    "symbol": "DE",
+    "name": "Deere & Co.",
+    "sector": "Industrial",
+    "exchange": "NYSE",
+    "marketCap": 119000000000
+  },
+  {
+    "symbol": "UPS",
+    "name": "United Parcel Service",
+    "sector": "Industrial",
+    "exchange": "NYSE",
+    "marketCap": 110000000000
+  },
+  {
+    "symbol": "FDX",
+    "name": "FedEx Corp.",
+    "sector": "Industrial",
+    "exchange": "NYSE",
+    "marketCap": 64000000000
+  },
+  {
+    "symbol": "NEE",
+    "name": "NextEra Energy",
+    "sector": "Utilities",
+    "exchange": "NYSE",
+    "marketCap": 152000000000
+  },
+  {
+    "symbol": "DUK",
+    "name": "Duke Energy",
+    "sector": "Utilities",
+    "exchange": "NYSE",
+    "marketCap": 90000000000
+  },
+  {
+    "symbol": "SO",
+    "name": "Southern Co.",
+    "sector": "Utilities",
+    "exchange": "NYSE",
+    "marketCap": 99000000000
+  },
+  {
+    "symbol": "AMT",
+    "name": "American Tower",
+    "sector": "RealEstate",
+    "exchange": "NYSE",
+    "marketCap": 91000000000
+  },
+  {
+    "symbol": "PLD",
+    "name": "Prologis Inc.",
+    "sector": "RealEstate",
+    "exchange": "NYSE",
+    "marketCap": 107000000000
+  },
+  {
+    "symbol": "LIN",
+    "name": "Linde plc",
+    "sector": "Materials",
+    "exchange": "NYSE",
+    "marketCap": 222000000000
+  },
+  {
+    "symbol": "FCX",
+    "name": "Freeport-McMoRan",
+    "sector": "Materials",
+    "exchange": "NYSE",
+    "marketCap": 67000000000
+  },
+  {
+    "symbol": "NEM",
+    "name": "Newmont Corp.",
+    "sector": "Materials",
+    "exchange": "NYSE",
+    "marketCap": 65000000000
+  },
+  {
+    "symbol": "PLTR",
+    "name": "Palantir Tech.",
+    "sector": "Technology",
+    "exchange": "NYSE",
+    "marketCap": 145000000000
+  },
+  {
+    "symbol": "SNOW",
+    "name": "Snowflake Inc.",
+    "sector": "Technology",
+    "exchange": "NYSE",
+    "marketCap": 56000000000
+  },
+  {
+    "symbol": "SHOP",
+    "name": "Shopify Inc.",
+    "sector": "Technology",
+    "exchange": "NYSE",
+    "marketCap": 145000000000
+  },
+  {
+    "symbol": "UBER",
+    "name": "Uber Technologies",
+    "sector": "Technology",
+    "exchange": "NYSE",
+    "marketCap": 150000000000
+  },
+  {
+    "symbol": "ABNB",
+    "name": "Airbnb Inc.",
+    "sector": "Consumer",
+    "exchange": "NASDAQ",
+    "marketCap": 86000000000
+  },
+  {
+    "symbol": "COIN",
+    "name": "Coinbase Global",
+    "sector": "Financials",
+    "exchange": "NASDAQ",
+    "marketCap": 73000000000
+  },
+  {
+    "symbol": "SQ",
+    "name": "Block Inc.",
+    "sector": "Financials",
+    "exchange": "NYSE",
+    "marketCap": 57000000000
+  },
+  {
+    "symbol": "PYPL",
+    "name": "PayPal Holdings",
+    "sector": "Financials",
+    "exchange": "NASDAQ",
+    "marketCap": 85000000000
+  },
+  {
+    "symbol": "RBLX",
+    "name": "Roblox Corp.",
+    "sector": "Communication",
+    "exchange": "NYSE",
+    "marketCap": 35000000000
+  },
+  {
+    "symbol": "DASH",
+    "name": "DoorDash Inc.",
+    "sector": "Consumer",
+    "exchange": "NYSE",
+    "marketCap": 73000000000
+  },
+  {
+    "symbol": "CRWD",
+    "name": "CrowdStrike Holdings",
+    "sector": "Technology",
+    "exchange": "NASDAQ",
+    "marketCap": 86000000000
+  },
+  {
+    "symbol": "PANW",
+    "name": "Palo Alto Networks",
+    "sector": "Technology",
+    "exchange": "NASDAQ",
+    "marketCap": 129000000000
+  },
+  {
+    "symbol": "NOW",
+    "name": "ServiceNow Inc.",
+    "sector": "Technology",
+    "exchange": "NYSE",
+    "marketCap": 215000000000
+  },
+  {
+    "symbol": "DDOG",
+    "name": "Datadog Inc.",
+    "sector": "Technology",
+    "exchange": "NASDAQ",
+    "marketCap": 49000000000
+  },
+  {
+    "symbol": "NET",
+    "name": "Cloudflare Inc.",
+    "sector": "Technology",
+    "exchange": "NYSE",
+    "marketCap": 37000000000
+  },
+  {
+    "symbol": "MDB",
+    "name": "MongoDB Inc.",
+    "sector": "Technology",
+    "exchange": "NASDAQ",
+    "marketCap": 22000000000
+  },
+  {
+    "symbol": "ZS",
+    "name": "Zscaler Inc.",
+    "sector": "Technology",
+    "exchange": "NASDAQ",
+    "marketCap": 30000000000
+  },
+  {
+    "symbol": "TEAM",
+    "name": "Atlassian Corp.",
+    "sector": "Technology",
+    "exchange": "NASDAQ",
+    "marketCap": 62000000000
+  },
+  {
+    "symbol": "SPX",
+    "name": "S&P 500 Index",
+    "sector": "Index",
+    "exchange": "INDEX"
+  },
+  {
+    "symbol": "NDX",
+    "name": "Nasdaq-100 Index",
+    "sector": "Index",
+    "exchange": "INDEX"
+  },
+  {
+    "symbol": "DJI",
+    "name": "Dow Jones Industrial",
+    "sector": "Index",
+    "exchange": "INDEX"
+  },
+  {
+    "symbol": "RUT",
+    "name": "Russell 2000 Index",
+    "sector": "Index",
+    "exchange": "INDEX"
+  },
+  {
+    "symbol": "VIX",
+    "name": "CBOE Volatility Index",
+    "sector": "Index",
+    "exchange": "INDEX"
+  },
+  {
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "sector": "Crypto",
+    "exchange": "CRYPTO"
+  },
+  {
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "sector": "Crypto",
+    "exchange": "CRYPTO"
+  },
+  {
+    "symbol": "SOL",
+    "name": "Solana",
+    "sector": "Crypto",
+    "exchange": "CRYPTO"
+  },
+  {
+    "symbol": "US10Y",
+    "name": "US 10-Year Treasury Yield",
+    "sector": "Macro",
+    "exchange": "BOND"
+  },
+  {
+    "symbol": "US02Y",
+    "name": "US 2-Year Treasury Yield",
+    "sector": "Macro",
+    "exchange": "BOND"
+  },
+  {
+    "symbol": "DXY",
+    "name": "US Dollar Index",
+    "sector": "Macro",
+    "exchange": "FX"
+  },
+  {
+    "symbol": "GOLD",
+    "name": "Gold Spot",
+    "sector": "Materials",
+    "exchange": "FX"
+  },
+  {
+    "symbol": "WTI",
+    "name": "WTI Crude Oil",
+    "sector": "Energy",
+    "exchange": "FX"
+  }
+]

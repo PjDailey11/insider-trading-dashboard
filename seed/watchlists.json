@@ -1,0 +1,64 @@
+[
+  {
+    "id": "wl_mega",
+    "name": "Mega Cap",
+    "symbols": [
+      "AAPL",
+      "MSFT",
+      "GOOGL",
+      "AMZN",
+      "META",
+      "NVDA",
+      "TSLA",
+      "AVGO",
+      "JPM",
+      "UNH",
+      "V",
+      "WMT"
+    ],
+    "createdAt": 1771704000000,
+    "updatedAt": 1779393600000
+  },
+  {
+    "id": "wl_macro",
+    "name": "Macro",
+    "symbols": [
+      "SPX",
+      "NDX",
+      "DJI",
+      "RUT",
+      "VIX",
+      "BTC",
+      "ETH",
+      "US10Y",
+      "US02Y",
+      "DXY",
+      "GOLD",
+      "WTI"
+    ],
+    "createdAt": 1774296000000,
+    "updatedAt": 1779307200000
+  },
+  {
+    "id": "wl_pol_heavy",
+    "name": "Politician-Heavy",
+    "symbols": [
+      "AMT",
+      "SBUX",
+      "NFLX",
+      "SOL",
+      "PG",
+      "JPM",
+      "AMZN",
+      "TGT",
+      "AMD",
+      "PLD",
+      "GILD",
+      "ZS",
+      "C",
+      "ILMN"
+    ],
+    "createdAt": 1776888000000,
+    "updatedAt": 1779220800000
+  }
+]
